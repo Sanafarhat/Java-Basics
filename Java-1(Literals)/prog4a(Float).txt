@@ -1,0 +1,21 @@
+Float
+-------
+1) What  is  a  float ? --->  A  number  with  decimal  point
+
+2) What  is  10.85  called  ?  ---> Positive   float
+    What  is  -6.9247  called  ? ---> Negative  float
+
+3) Is  9.8.2  valid ? ---> No  due  to  more  than  one  decimal  point
+
+4) What  are  the  two  ways  to  represent  a  float  number ?  ---> Fractional  number
+													        and
+													   mantissa-exponent  number
+
+5) What  is  123.45  called  ?  --->  Fractional  number
+
+6) What  is   9.62E3  called ? --->  Mantissa  exponent  number
+    What  is  9.62  in  9.62E3  called ?  ---> Mantissa   becoz  it  is  before  'E'
+    What  is  3  in  9.62E3  called ? ---> Exponent  becoz  it  is  after  'E'
+
+7) What  is  the  result  of  123.4567E2 ?  --->  123.4567 * 10 ^ 2 = 12345.67
+    What  is  the  result  of  12345.67e-3  --->  12345.67 * 10 ^ -3 = 12.34567

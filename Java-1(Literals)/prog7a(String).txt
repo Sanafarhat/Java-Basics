@@ -1,0 +1,17 @@
+String
+--------
+1) What  is  a  string  ?  --->  A  group  of  characters  in  double  quotes
+
+2) What  are  "Rama  Rao" ,  "9247" ,   "+-$"  ,  "A2#"  called ?  --->  Strings  due  to  double  quotes
+
+3) What  is  another  name  of  string ?  ---> Alphanumeric  becoz  string  can  have  alphabets , digits  and  special  characters
+
+4) Is  ""  valid ?  --->  Yes  and  it  is  called  empty  string
+
+5) Can  string  be  in  single  quotes ?  ---> No
+
+6) Does  java  string  end  with  '\0' ?   ---> No (Unlike  'c'  language  string)
+
+7) Is  "Hyd"  an  object ?  --->  Yes  becoz  string  is  an  object  in  java
+
+8) Are  25 , 10.8 ,  'g'  and  true  objects ?  --->  No  and  they  are  only  values

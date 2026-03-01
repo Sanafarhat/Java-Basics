@@ -1,0 +1,11 @@
+Summary
+-----------
+1) What  is  the  difference  between  7 , '7'  and  "7" ?  --->  7  is  integer , '7'  is  character   and  "7"  is   String
+
+2) What  is  difference  between  10.8 ,  "10.8"   and  '10.8' ?  --->  10.8  is  double  , "10.8"  is  string  and
+							'10.8'  throws  error  due  to  more  than  one  character  in  single  quote
+
+3) What  is  difference  between  true ,  "true"   and  'true' ?  ---> true  is  boolean  ,  "true"  is  string  and
+													  'true'  throws  error
+
+4) What  is  difference  between  "Hyd"  and  'Hyd' ?  --->  "Hyd"  is  string  and  'Hyd'  throws  error

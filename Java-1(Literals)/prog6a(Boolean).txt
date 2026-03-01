@@ -1,0 +1,10 @@
+Boolean
+----------
+1) What  are  the  two  boolean  values ?  ---> true  and  false
+
+2) Are  true  and  1  same  ?  --->  No (only  in  java)
+    Are  false  and  0  same  ?  ---> No (only  in  java)
+
+3) What  is  the  result  of  true +  false ?  ---> Error (only  in  java)
+
+4) Are  True  and  False  valid ?  --->  No  becoz  they  are  keywords  and  hence  they  should  be  in  lowercase

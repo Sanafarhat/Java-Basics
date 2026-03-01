@@ -1,0 +1,40 @@
+Points   to   remember
+--------------------------
+1) Is  it  possible  to  write  a  java  program  without  a  class ?  --->  No
+
+2) What  is  mandatory  in  every  java  program ?  --->  At  least  one  class
+
+3) What  does  println()  method  do  ?  --->  Prints  a  value  on  console(i.e.  monitor)
+										and
+								      moves  to  next  line  automatically
+
+4) What  is  the  difference  between  System . out  and  System . in ?  --->
+                                                                             System . out  is  console (i.e. Monitor)  and  System . in  is  keyboard
+
+5) How  to  terminate  a  statement  in  the  program ?  --->  With  semicolon
+
+6) What  is  semicolon  called  ?  ---> Statement  terminator
+							   i.e. End  of  a  statement
+
+7) How  to  write  a  single  line  comment ?  ---> With   //   operator
+    How  to  write  a  multi-line  comment ?  --->  /*
+									         Line1
+									         Line2
+									         Line3
+									  */
+
+8) Are  comments  compiled ?  --->  No  and  they  are  ignored  by  the  compiler
+
+9) What  is  the  difference  between  /*  and  */ ?  --->  /*  opens  a  comment  and   */  closes  the comment
+
+10) What  is  the  difference  between  {  and  }  ?  --->  {  opens  a  block  and  }  closes  the  block
+
+11) What  is  mandatory  to  run  a  java  class ?  ---> main()  method
+
+12) Can  a  class  be  executed  without  main()  method ?  --->  No
+
+13) What  is  the  signature  of  main()  method ?  --->  public  static  void  main(String[]  args)
+
+14) What  is  []  operator  called ?  --->  Array  operator
+
+15) Is  args  a  keyword ?  --->  No  and  it  is  a  user  defined  word

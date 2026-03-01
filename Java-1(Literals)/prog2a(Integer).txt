@@ -1,0 +1,10 @@
+Integer
+---------
+1) What  is  an  integer ? --->  A  number  without  decimal  point
+
+2) Can  integer  be  positive , negative  and  0 ?  ---> Yes
+
+3) What  is  9247  called ?  ---> Positive  integer
+    What  is  -6248  called ?  ---> Negative  integer
+
+4) Can  number  have  special  characters  (like  $  and  comma)  ?  ---> No

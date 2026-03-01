@@ -1,0 +1,41 @@
+Character
+------------
+1) What  is  a  character ? --->  A  single  character  in  single  quotes
+
+2) What  are  the  three  different  types  of  characters ?  --->  Alphabet , digit  and  special  characters
+
+3) What  are  26 + 26 = 52  alphabet  characters ?   ---> 'A'  to  'Z'   and  'a'  to  'z'
+     What  are  the  ten  digit  characters ?  ---> '0'  to  '9'
+     What  are  28  special  characters ? --->  '$' , ',' , '-'  , '('  and  so   on
+
+4) Is  'Hyd'  valid  ?  ---> No  due  to  more  than  one  character  in  single  quotes
+    Is  ''  valid ?  --->  No  becoz  there  is  no  character  in  single  quotes
+
+5) Is  "g"  a  character ?  --->  No  due  to  double  quotes
+
+6) How  are  characters  internally  represented ?  --->  In  the  form  of  integers  i.e. Unicode  values
+
+7) How  many  unicode  values  exist ?  --->  512
+    What  is  the  range  of  unicode  values ?  ---> 0  to  511
+
+8) What  is  another  name  of  unicode  ?  --->  Extended  Ascii (American  standard  code  for  information  and  interchange)
+
+9) What  are  the  unicode  values  of  'A'  to  'Z' ?  ---> 65  to  90
+    What  are  the  unicode  values  of  'a'  to  'z'  --->  97  to  122
+    What  are  the  unicode  values  of  '0'  to  '9'  ---> 48  to  57
+    What  is  the  unicode  value  of  '$' ?   ---> 36
+    What  is  the  unicode  value  of  space ? ---> 32
+
+10) What  is  the  result  of  4 +  5 ? --->  9
+      What  is  the  result  of  '4' +  '5' ? --->  52 + 53 = 105
+								       i.e. Unicode  values  are  added  but  not  characters
+      What  is  the  result  of  'A' >  'B' ?  --->  65 > 66 = false
+                                                                        i.e. Unicode  values  are  compared  but  not  characters
+
+11) What  happens  when  operations  are  made  on  characters ?  --->
+											They  are  internally  made  on  corresponding  unicode  values
+
+12) What  does  (int)'A'  do ?  --->  Converts  character  'A'  to  integer  and
+							unicode  value  of  'A' (i.e.  65)  is  obtained
+
+13) How  to  obtain  unicode  value  of  a  character ?  --->  Convert  (or)  typecast  the  character  to  integer
