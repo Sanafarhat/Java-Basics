@@ -1,0 +1,23 @@
+Variable
+----------
+1) What  is  a  variable ?  --->  A  memory  cell  (or)  memory  location
+
+2) How  many  values  can  a  variable  hold ?  ---> Single  value
+
+3) What  happens  when  a  new  value  is  assigned  to  the  variable ? --->  Existing  value  gets  replaced
+
+4) Can  variable  hold  more  than  one  value  ?  --->  No
+    How  to  represent  more  than  one  value ?  ---> Use  object
+
+5) Can  two  variables  have  same  name ?  --->  No  and  variable  name  should  be  unique
+
+6) int  x;
+    float  x;
+    Are  the  two  statements  valid ?  --->  No  becoz  first  variable  name  is  already  'x'  and  hence
+								   there  can  not  be  another  variable  with  same  name  'x'
+
+7) int  a;
+    float   A;
+    Are  the  two  statements  valid  ?  ---> Yes  becoz  they  are  of  different  names
+
+8) Is  &variable  valid  ?  --->  No  becoz  there  is  no  address  concept  in  java

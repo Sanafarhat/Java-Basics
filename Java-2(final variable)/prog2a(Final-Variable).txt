@@ -1,0 +1,36 @@
+final  variable
+-----------------
+1) What  is  a  final  variable ?  --->  A  variable  whose  value  can  not  be  modified
+
+2) It  is  like  a  constant
+
+3) What  is  the  keyword  to  declare  a  final  variable ?   ---> final
+
+4) final  int  X  = 25
+    What  is  'X' ?  --->  A  final  variable  with  value  25
+
+5) What  is  another  name  of  final  variable ?  ---> Read-only  variable  becoz  it  can  be  accessed  but  can  not  be  modified
+
+6) Final  int  x;
+    Is  the  statement  valid ?  ---> No  becoz  final  is  a  keyword  and  hence  it  should  be  in  lowercase
+
+7) How  to  distinguish  variable  and  final  variable ?  --->  Variable  name   is  in  lowercase  but
+											     final  variable  name  is   in  uppercase
+
+8) final  int  X  = 25;
+    System . out . println(X);
+    What  does  compiler  do ?  --->  Substitutes  25  whereever  'X'  is  used  in  the  program
+
+*9) In  other  words,  final  variable  expanded  at  compile  time
+
+10) final  int  X = 25;
+     System . out . println(X);
+     How  is  the  statement  reduced  to  at  compile  time ?  --->  System . out . println(25);
+
+11) Does  class  file  have  final  variable ?  --->  No  becoz  it  is  already  expanded  at  compile  time
+
+12) Does  jvm  know  about  final  variables ?  --->  No  becoz  there  are  no  final  variables  in  class  file
+
+13) In  other  words,  there  are  no  final  variables  at  runtime
+
+14) Does  class  file  have  regular  variables ?  --->  Yes  becoz  they  are  not  expanded  at  compile  time

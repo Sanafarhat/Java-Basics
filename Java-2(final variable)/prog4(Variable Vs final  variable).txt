@@ -1,0 +1,16 @@
+Variable   Vs  final   variable
+---------------------------------
+1) How  to  declare  regular  variable ?  ---> int  x = 10;
+    How  to  declare  final  variable ?  ---> final   int  X = 10;
+
+2) Can  variable  be  modified ?  --->  Yes
+    Can  final  variable  be  modified ?  ---> No
+
+3) When  is  variable  expanded ?  --->  Never
+    When  is  final  variable  expanded ?  ---> At  compile  time
+
+4) Does  class  file  have  variable ?   --->  Yes  becoz  it  is  not  expanded  at  compile  time
+    Does  class  file  have  final  variable ?   --->  No  becoz  it  is  already  expanded  at  compile  time
+
+5) Can  variable  name  be  in  uppercase  letters ?  --->  Yes  but  not  recommended
+    Can  final  variable  name  be  in  lower  case  letters ?  --->  Yes  but  not  recommended
