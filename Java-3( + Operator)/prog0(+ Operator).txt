@@ -1,0 +1,12 @@
++  operator
+-------------
+1) What  does  number + number  do ?  --->  Adds  the  two  numbers
+
+2) What  does  string + string  do  ? --->  Concatenates  the  two  strings  to  form  a  new  string
+    What  does  string + number  do ? ---> Concatenates  string  and  number  to  form  a  new  string
+    What  does  number + string  do ? ---> Concatenates  number  and   string  to  form  a  new  string
+
+3) When  is   '+'  called  addition  operator ?  ---> When  both  the  operands  are  numbers
+    When  is   '+'  called  concatenation  operator ?  --->When  at  least  one  operand  is  string
+
+4)  Is  +  operator  overloaded ?  --->  Yes  becoz  '+'  operator  does  both  addition  and  concatenation
