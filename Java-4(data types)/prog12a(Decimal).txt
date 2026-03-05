@@ -1,0 +1,10 @@
+Decimal  Integer
+-------------------
+1) What  is  the  prefix  of  decimal  number ?  ---> Nothing
+
+2) What  are  the  valid  digits  in  decimal  number ?  ---> 0   to   9
+
+3) What  is  the  base  of  decimal  integer ?  ---> 10  due  to  ten  digits  0  to  9
+
+4) decimal  int  x = 25;
+     Is  the  statement  valid ?  ---> No  becoz  there  is  no  decimal  keyword  in  java

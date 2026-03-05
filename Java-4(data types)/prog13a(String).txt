@@ -1,0 +1,32 @@
+String
+--------
+1) Is  String  a  class  (or) datatype ?  ---> class
+
+2) Where  is  String  class  defined  ?  ---> In  java . lang  package
+
+3) String   a = new  String("Hyd")
+    What  are  the  three  events  ?  --->  a) new  operator  creates  String  class  object
+								b) Object  is  initialized  with  "Hyd"  by  constructor
+								c) new  operator  returns  hash  code  of  the  object  which  is  assigned  to
+								    reference  'a'
+
+4) Where  does  reference  'a'  point  to  ?  ---> String  object  "Hyd"
+
+5) Is  new  mandatory  to  create  a  String  object ?  ---> No  becoz  string  itself  is  an  object
+
+6) What  is  the  alternative  to  new  String("Hyd")  ?  --->  "Hyd"
+
+7) What  are  "Rama  Rao" , "9247" , "+-$" , "A2#" , ""   called  ?  ---> String  objects
+
+Note:
+1) Are  java  objects  nameless ?  ---> Yes
+
+2) What  is  the  name  of  object ?   --->  Reference  name  is  nothing  but  object  name
+
+3) String  a = new String("Hyd")
+    What  is  the  object  name  ?  --->  'a'
+    What  is  the  type  of  object  ?  ---> String
+    What  is  the  content  of  object  ?  ---> "Hyd"
+
+4) Are  25,  10.8 ,  'g'  ,  true  values  (or)  objects ?  ---> Values
+    Is  "Hyd"   a  value  (or)  object ?  --->  Object  i.e. String  class  object

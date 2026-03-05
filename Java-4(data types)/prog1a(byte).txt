@@ -1,0 +1,27 @@
+byte  datatype
+------------------
+1) How  much  memory  space  does  byte  take ?  --->  1  byte  i.e.  8  bits
+										      Eg:  1010  0100
+
+2) What  is  the  first  bit  called  ?  ---> Sign  bit
+     What  are  the  remaining  seven  bits  called  ?  ---> Magnitude  bits
+
+3) What  does  sign  bit = 0  indicate ? --->  Positive  magnitude
+     What  does  sign  bit = 1  indicate ? ---> Negative  magnitude
+
+4) Is  0101 1111  positive  (or)  negative ?  ---> Positive  becoz  sign  bit  is  0
+    Is  1101 1110  positive  (or)  negative ?  ---> Negative  becoz  sign  bit  is  1
+
+5) What  is  the  maximum  value  of  byte ?  ---> 2 ^ 7 - 1 = 127
+     What  is  the  minimum  value  of  byte ?  ---> -2 ^ 7 = -128
+
+6) What  is  the  difference  between  byte  and  Byte ?  --->
+									byte  is  a  datatype  and  Byte  is  a  corresponding  class  for  datatype  byte
+
+*7) Every  datatype  has  got  a  corresponding  class
+
+8) Where  is  Byte  class  defined  ?   --->  In  java . lang  package
+
+9) What  is  the  difference   between  java  and  lang ? --->  java  is   a  package  and  lang  is  a  sub-package
+
+10) What  is  the  use  of  byte ?  ---> To  represent  small  numbers  between  -128  and  127

@@ -1,0 +1,19 @@
+long  datatype
+-----------------
+1) What  is the  size  of  long ?  --->  8B  i.e. 64  bits
+
+2) What  is  the  maximum  value  of  long  integer ?  ---> 2 ^ 63 - 1
+     What  is  the  minimum  value  of  long  integer ?  ---> -2 ^ 63
+
+3) What  is  the  difference  between  long  and  Long ?  --->
+								long  is  a  datatype  and  Long  is   the  corresponding  class  for  long  datatype
+
+4) Where  is  Long  class  defined ?  ---> In  java . lang  package
+
+5) What  is  the  difference  between  25L  and  25 ?  --->  25L  is  long  integer  due  to  L   and  25  is  an  integer
+
+6) Is  25l  valid ?  --->  Yes  i.e.  L  (or)  l  is  valid
+
+7) How  to  distinguish  integer  and  long  integer ? --->  With   L  (or)  l
+
+8) Why  is  long  called  an  extension  of  int ?  --->  Since  int  is  4B  and  long  is  8B

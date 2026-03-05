@@ -1,0 +1,25 @@
+Data  type
+------------
+1) What  is  a   datatype ?  ---> The  type  of  value  that  a  variable  can  hold
+
+2) int  x;
+    What  value  can  variable  'x'   hold  ?  ---> Integer  value  becoz  type  of  'x'  is  int
+
+3) float  m;
+    What  value  can  variable  'm'   hold ?  ---> Float  value  becoz  type  of  'm'  is  float
+
+4) char  ch;
+     What  value  can  variable  ch   hold ?  ---> Character  becoz  type  of  ch  is  char
+
+5) How  many  datatypes  are  in  java ?  --->  8
+
+6) What  are  the  four  different  integer  datatypes ?  --->  byte , short , int  and  long
+     What  are  the  two  different  float  datatypes ?  ---> float  and  double
+     What  are  the  two  remaining  datatypes ?  ---> char  and  boolean
+
+7) Is  there  string  datatype  in  java ?  ---> No
+
+8) What  is  String  in  java ?  --->  A  class  but  not  datatype
+
+9) Why  is   'S'  capital  letter  in  String ?  --->  Since  String  is  a  class  name  and
+									     every  class  name  starts  with  uppercase

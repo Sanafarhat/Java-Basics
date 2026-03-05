@@ -1,0 +1,18 @@
+double
+--------
+1) What  is   the  size  of  double  ?  ---> 8B  i.e.  64  bits
+
+2) What  is  the  difference  between  double  and  Double ?  --->
+						double  is  a  datatype  and  Double  is   the  corresponding  class  for  double  datatype
+
+3) Where  is  Double  class  defined ? ---> In  java . lang  package
+
+4) Are  10.8d , 10.8  and  10.8D  same ?  --->  Yes  and  all  of  them  are  same
+
+5) What  is  the  suffix  of  double  number ?  ---> 'd'  (or)  'D' which  is  optional
+
+6) What  is  the  default  datatype (float  (or)  double)  ?  ---> double
+
+7) Why  is  double  called  an  extension  to  float ?  ---> Since  float  is  4B  and  double  is  8B
+
+8) What  is  another  name  of  double ?  ---> long  float

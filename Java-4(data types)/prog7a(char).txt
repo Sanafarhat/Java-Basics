@@ -1,0 +1,17 @@
+char
+------
+1) What  is  the  size  of  char ?  ---> 2B  i.e. 16  bits
+
+2) What  is  the  length  of  magnitude ?  ---> All  16  bits
+
+3) Why  is  there  no  sign  bit ?  --->  Since  there  is  no  negative  character
+
+4) What  is  the  maximum  value  of  character ?  ---> 2 ^ 16 - 1  = 65535
+    What  is  the  minimum  value  of  character ?  --->  0
+
+5) Why  are  negative  values  not  permitted ?  --->Since  there  is  no  sign  bit
+
+6) What  is  the  difference  between  char  and  Character ?  --->
+								char  is  a  datatype  and  Character  is   the  corresponding  class  for  char  datatype
+
+7) Where  is  Character  class  defined ?   --->  In  java . lang  package

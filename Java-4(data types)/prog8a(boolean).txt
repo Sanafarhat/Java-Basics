@@ -1,0 +1,10 @@
+boolean
+----------
+1) What  is  the  size  of  boolean ?  --->  0B  becoz  true / false  is  represented  in  the  register  but  not  in  memory
+
+2) What  is  the  difference  between  boolean  and  Boolean ?  --->
+							boolean  is  a  datatype  and  Boolean  is   the  corresponding  class  for  boolean  datatype
+
+3) Where  is  Boolean  class  defined ?   ---> In  java . lang  package
+
+4) Is  false  value  0  and  true  value  1 ?   --->  No (Unlike  other  languages)

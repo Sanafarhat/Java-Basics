@@ -1,0 +1,20 @@
+Octal  Integer
+------------------
+1) What  is  the  prefix  of  octal  number ?  ---> 0
+
+2) What  are  the  valid  digits  in  octal  number ?  ---> 0  to  7
+
+3) What  is  the  base  of  octal  integer ?  ---> 8  becoz  valid  digits  are  0  to  7
+
+4) Which  digits  are  not  permitted  in  octal  number ?  ---> 8  and  9
+
+5) System . out . println(octal-number);
+     What  is  printed ?  ---> The  decimal  equivalent
+
+6) int  x = 06247;
+    What  does  variable  'x'  contain ?  ---> Decimal  equivalent  i.e.  6 * 8 ^ 3 + 2 * 8 ^ 2 + 4 * 8 ^ 1 + 7 * 8 ^ 0
+
+7) JVM  automatically  converts  octal  number  to  decimal  equivalent  which  is  assigned  to  the  variable
+
+8) octal  int  x = 06247;
+     Is  the  statement  valid ?  ---> No  becoz  there  is  no  octal  keyword  in  java

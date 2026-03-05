@@ -1,0 +1,14 @@
+Float
+-------
+1) What  is  the  size  of  float ?  --->  4B  i.e.  32  bits
+
+2) What  is  the  difference  between  float  and  Float ?  --->
+								float  is  a  datatype  and  Float  is   the  corresponding  class  for  float  datatype
+
+3) Where  is  Float  class  defined ?   ---> In  java . lang  package
+
+4) What  is  the  difference  between  10.8f  and  10.8 ?  ---> 10.8f  is  float  due  to  'f'  and  10.8  is  double
+
+5) Is  10.8F  valid ?  --->  Yes  i.e.  F  (or)  f  valid
+
+6) How  are  float  and  double  distinguished ? --->  With   F  (or)  f

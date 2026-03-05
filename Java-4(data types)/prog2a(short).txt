@@ -1,0 +1,20 @@
+short  datatype
+-------------------
+1) What  is  the  size  of  short ?  ---> 2B  i.e.  16 bits
+							     Eg:  1010  0101  1110  0111
+
+2) What  is  the  first  bit  called ?  ---> Sign  bit
+     What  is  the  length  of  magnitude ?  ---> 15  bits
+
+3) What  does  sign  bit = 0  indicate ? ---> Positive  magnitude
+    What  does  sign  bit = 1  indicate ? ---> Negative magnitude
+
+4) What  is  the  maximum  value  of  short  integer ?  --->  2 ^ 15 - 1 =  32767
+     What  is  the  minimum  value  of  short  integer ?  ---> -2 ^ 15 = -32768
+
+5) What  is  the  difference  between  short  and  Short ? --->
+								short  is   a  datatype  and  Short  is  a  corresponding  class  for  short  datatype
+
+6) Where  is  Short  class  defined ?  ---> In  java . lang  package
+
+7) Why  is  short  called  an  extension  of  byte ?  --->  Since  byte  is  1B  and  short  is  2B

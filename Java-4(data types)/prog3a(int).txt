@@ -1,0 +1,19 @@
+int   datatype
+----------------
+1) What  is  the  size  of  int ?  ---> 4B  i.e.  32  bits
+							Eg: 1010  0100  1100  0110  1101  0001  1111   0001
+
+2) What  is  the  first  bit  called  ?  ---> Sign  bit
+    What  is  the  length  of  magnitude ?  ---> 31  bits
+
+3) What  is  the  maximum  value  of  integer ?  ---> 2 ^ 31 - 1
+     What  is  the  minimum  value  of  integer ?  --->  -2 ^ 31
+
+4) What  is  the  difference  between  int  and  Integer ?  --->
+								int  is  a  datatype  and  Integer  is   the  corresponding  class  for  int  datatype
+
+5) Where  is  Integer  class  defined ?  --->  In  java . lang  package
+
+6) What  is  the  most  frequently  used  data  type  in  java ?  --->  int
+
+7) Why  is  int  called  an  extension  of  short ?  --->  Since  short  is  2B  and  int  is  4B

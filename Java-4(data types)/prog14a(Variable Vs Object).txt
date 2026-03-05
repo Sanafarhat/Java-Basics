@@ -1,0 +1,25 @@
+Variable	Vs   Object
+-------------------------
+1) How  many  values  can  a  variable  hold ?  ---> Single  value
+    How  many  values  can  an  object  hold ?  ---> Multiple  values
+
+2) What  does  employee  object  usually  contain ? ---> Emp  number , emp  name , salary  and  so  on
+
+3) int  x  =  25;
+    Is  'x'  variable  (or) object ?  ---> Variable  becoz  int  is  a  datatype
+    String  s  = "Hyd";
+    Is  's'  variable  (or) object  ?  ---> Object  becoz  String  is  a  class
+
+4) How  to  obtain  hash  code  of  the  object ?  ---> object . hashCode()
+    How  to  obtain  hash  code  of  variable ?  --->  Variable  doesn't  have  hash  code
+
+5) Can  there  be  an  object  without  reference ? --->  No  becoz  object  can  not  be  accessed  without  reference
+    Can  variable  have  reference ?  ---> No  becoz  variable  doesn't  have  hash  code
+
+6) Where  does  variable  reside ?  ---> In  Stack  memory
+     Where  does  object  reside ?  --->  In  Heap  memory
+
+7) How  is  a  variable  created ? ---> datatype   variable
+							   Eg:  int  x  creates  variable  'x'
+     How  is  an  object  created ? --->  new  classname()
+							    Eg:  new  String() creates  a  String  class  object

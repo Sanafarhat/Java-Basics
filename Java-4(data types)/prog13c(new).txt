@@ -1,0 +1,30 @@
+new  operator
+----------------
+1) What  does  new  operator  do ?  --->  Creates  an  object  and  returns  hash  code  of  the  object
+
+2) What  is  the  syntax  of  new  operator ?  --->  new  classname()
+
+3) What  does  new  String()  do ? --->  Creates  a  String  class  object
+     What  does  new  Date()  do ?  ---> Creates  a  Date  class  object
+     What  does  new  Integer(25)  do ? ---> Creates  an  Integer  class  object  with  value  25
+     What  does  new  Test()  do ?  ---> Creates  a  Test  class  object  where  Test  is  a  user-defined  class
+
+4) reference = new  classname()
+    What  does  reference  contain ? ---> Hash  code  of  the  object
+
+5) What  is  executed  as  soon  as  object  is  created ? --->  Constructor
+
+6) What  does  constructor  do  ?  --->  Initializes  object
+
+7) What  does  constructor  do  wrt  new  Integer(25)  ?  ---> Initializes  object  with  25
+     What  does  constructor  do  wrt  new  Date()  ?  ---> Initializes  object  with  current  date , time  and  day  of  the  week
+     What  does  constructor  do  wrt  new  Double(10.8) ?  --->  Initializes  object  with  10.8
+     What  does  constructor  do  wrt  new  Character('g') ?  ---> Initializes  object  with  'g'
+     What  does  constructor  do  wrt  new  String("Hyd") ?  --->  Initializes  object  with  "Hyd"
+
+8) new  int(25);
+    new  double(10.8);
+    new  char('g');
+    Are  the  three  statements  valid ?  ---> No  becoz  int , double  and  char  are  not  classes  but  datatypes
+
+9) Can  new  operator  create  variable ?  ---> No  becoz  datatype  is  not  permitted  in  new  operator

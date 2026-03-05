@@ -1,0 +1,9 @@
+Summary
+-----------
+					float				double
+------------------------------------------------------------------------------------
+    SIZE				 4B				  8B
+
+    Suffix                        F  (or)  f                D (or)  d  which  is  optional
+
+    Class			        Float		        Double
