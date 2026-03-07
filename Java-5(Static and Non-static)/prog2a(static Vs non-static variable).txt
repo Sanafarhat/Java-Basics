@@ -1,0 +1,58 @@
+static  variable  Vs  Non-static  variable
+----------------------------------------------
+1) class  Test
+    {
+	static  int  x = 10;
+	int  y = 20;
+    }
+    What  is  'x'  called  ?  ---> static  variable  due  to  the  keyword  static
+    What  is  'y'  called ?  ---> Non-static  variable  becoz  keyword  static  is  missing
+
+2) What  is  another  name  of  static  variable ?  --->  class  variable
+    What  is  another  name  of  non-static  variable  ?  ---> Instance  variable
+
+3) How  is  static  variable  accessed  ?  ---> Thru  classname
+								      i.e.  classname . variable
+    How  is  non-static  variable  accessed ?  ---> Wrt  object
+								            i.e.  object . variable
+
+4) How  to  access  variable  'x' ?  ---> Test . x
+    How  to  access  variable  'y' ?  --->  Test  t = new  Test();
+                                                              System . out . println(t . y)
+
+5) Test  t = new  Test();
+    How  many  variables  are  in  object  't' ?  ---> Single  variable  i.e.  y = 20
+    What  about  'x' ?  --->   It  is  global  to  all   Test  class  objects
+
+6) In  other  words,  non-static  variable  is  local  to  each  object  and
+    static  variable  is  global  to  all  the  objects  of  same  class
+
+7) Where  is  static  variable  represented  ?  ---> Outside  the  object
+    Where  is  non-static  variable  represented  ?  ---> Inside  every  object
+
+8) object . static-vaiable
+    Can  static  variable  be  accessed  wrt  object ?  --->  Yes  but  not  recommended
+    classname . non-static-variable
+    Can  non-static  variable  be  accessed  through  classname ?  ---> No
+
+9) How  many  instances  (or) objects  are  needed  to  access  static  variable ?  --->
+								None  becoz  static  variable  can  be  accessed  directly  without  any  object
+    How  many  instances  (or)  objects  are  needed  to  access  non-static  variable ?  --->
+								At  least  one  becoz  non-static  variable  can  not  be   accessed  without   object
+
+10) What  is  the  advantage  of  static  variable ?  --->  It  can  be  accessed  directly  even  when  there  are  no  objects
+
+11) What  are  in  and  out  called  ?  --->  static  objects  in  System  class
+      What  are  MAXVALUE , MINVALUE  and  SIZE  called  ?  --->
+												static  variables  of  Integer , Double , Character  classes
+
+12) classname . static-variable
+     Is  classname  mandatory ?  --->  Yes  when  it  is  static  variable  of  different  class
+     											and
+							  no  when  it  is  static  variable  of  same  class
+
+Note:
+1) What  are  the  three  ways  to  acces  a  static  variable ?  --->  classname . variable , object . variable  and
+												          variable  when  it  is  a  variable  of  same  class
+
+2) What  is  the  only  way  to  access  a  non-static  variable ?  ---> object . variable

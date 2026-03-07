@@ -1,0 +1,9 @@
+Summary
+-----------
+Property         Decimal  integer     Binary  integer     Octal  integer        Hexa  Decimal  integer
+------------------------------------------------------------------------------------------------------------------
+    Base                     10                              2                         8                            16
+
+    Prefix               Nothing                0B  (or) 0b                   0                         0X  (or) 0x
+
+   Valid  digits         0   to  9                   0  to   1               0   to  7                 0  to  9 , A to  F  (or)  a  to  f

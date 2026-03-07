@@ -1,0 +1,52 @@
+Static  method  Vs  Non-static  method
+----------------------------------------------
+1) class  Test
+    {
+         public  static  void  m1()
+	 {
+         }
+	 public  void  m2()
+	 {
+         }
+    }
+    What  is  m1()  called ?  ---> static  method  due  to  the  keyword  static
+    What  is  m2()  called ?  ---> Non-static  method  becoz  keyword  static  is  missing
+
+2) What  is  another  name  of  static  method ?  --->  class  method
+    What  is  another  name  of  non-static  method ?  ---> Instance  method
+
+3) How  is  a  static  method  called ?  ---> Thru  classname
+							            i.e.  classname . method()
+    How  is  a  non-static  method  called ?  --->  Wrt  object
+									   i.e.  object . method()
+
+4) How  to  call  m1()  method ?  ---> Test . m1()
+    How  to  call  m2()  method ?  --->  Test  t = new  Test();
+                                                           t . m2()
+
+5) What  is  the  advantage  of  static  method ?  --->  It  can  be  called  directly  without  an  object
+
+6) object . static-method();
+    Can  static  method  be  called  wrt  object ?  ---> Yes  but  not  recommended
+    classname . non-static-method();
+    Can  non-static  method  be  called  through  classname ?  ---> No  and  object  is  mandatory  to  call  a  non-static  method
+
+7) How  many  instances  (or) objects  are  needed  to  call  a  static  method ?  --->
+											None  becoz  it  can  be  called  directly  without  any  object
+    How  many  instances  (or)  objects  are  needed  to  call  a  non-static  method ?  --->
+														At  least  one  becoz  it  is  called  wrt  object
+
+8) Why  is  main()  a  static  method ?  --->
+								JVM (Java  Virtual  Machine)  directly  calls  main()  method  without  any  object
+
+9) classname . static-method();
+    Is  classname  mandatory ?  --->  Yes  when  it  is  a   static  method  of  different  class
+										and
+							no  when  it  is  a  static  method  of  same  class
+
+Note:
+1) What  are  the  three  ways  to  call  a  static  method ?  ---> a) classname . method();
+												     b)  object . method();
+												     c)  method()  when  the  method  is  in  same  class
+
+2) What  is  the  only  way  to  call  a  non-static  method ?  ---> object . method()
