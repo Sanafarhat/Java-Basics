@@ -1,0 +1,7 @@
+ int  x   Vs  (int) x
+-----------------------
+1) What  is  int   x  called ?  ---> Declaration  statement
+    What  is  (int) x  called ?  --->  Typecasting  statement  which  is  an  executable  statement
+
+2) What  does  int  x  do ? --->  Creates  a   variable  of  type  int  which  allocates  4B  of  memory  to  variable  'x'
+    What  does  (int)x  do ?  ---> Converts  variable  'x'  to  int

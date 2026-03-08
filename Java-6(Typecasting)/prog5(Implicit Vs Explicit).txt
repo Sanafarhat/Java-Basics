@@ -1,0 +1,10 @@
+Implicit  Typecasting  Vs  Explicit  Typecasting
+------------------------------------------------------
+1) What  is  implicit  typecasting  ?  --->  Made  by  JVM
+    What  is  explicit  typecasting  ?  ---> Made  by  programmer
+
+2) Can  anything  be  typecasted  to  anything  else  implicitly ?  ---> No
+    What about  explicit  typecasting ?  ---> Any  thing  can  be  converted  to  anything  else  explicitly
+
+3) Is  double  typecasted  implicitly ?  ---> No
+    Can  double  be  typecasted  explicitly ?  ---> Yes

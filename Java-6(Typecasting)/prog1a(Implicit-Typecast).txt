@@ -1,0 +1,24 @@
+Implicit  Typecasting
+-------------------------
+1) What  is  implicit  typecasting ? ---> Made  by  JVM  internally
+
+2) byte ---> short ---> int ---> long ---> float ---> double
+     (1B)          (2B)       (4B)      (8B)        (4B)         (8B)
+
+3) Can  int  be  converted  to  double  ?  --->  Yes
+    Can  double  be  converted  to  int  ?  --->  No  becoz  reverse  is  not  permitted
+
+4) char  can  be  converted  to  int  and  vice-versa
+     i.e.  char  <--->  int
+            (2B)           (4B)
+
+5) double  x = 25;
+    What  does  the  statement  do ?  ---> Converts  int  value  25  to  double  25.0  which  is  assigned  to  variable  'x'
+
+6) char  ch = 65;
+     What  does  the  statement  do ?  ---> Converts  65  to  'A'  which  is  assigned  to  variable  ch
+
+7) int  x =  10.8;
+    Is  the  statement  valid ?  --->  No  becoz  double  can  not  be  typecasted  to  int
+
+8) Which  operator  does  implicit  typecasting ?  ---> =  operator

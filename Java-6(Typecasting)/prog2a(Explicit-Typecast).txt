@@ -1,0 +1,17 @@
+Explicit  Typecasting
+------------------------
+1) What  is  explicit  typecasting ? ---> Made  by  programmer
+
+2) int  x = 25;
+    What  does  (double)x  do ?  --->  Converts  variable  'x'  to  double  and  the  result  is  25.0
+
+3) Which  operator  is  used  for  explicit  typecasting ? --->  ()  which  is  called  cast  operator
+
+4) What  is  the  value  of  'x'  in  rest  of  the  program  ?  ---> 25  itself
+
+5) double  x =  10.8;
+     Is  (int)x  valid ?  --->  Yes  and  variable  'x'  is  converted  to  integer  and  the  result  is  10
+
+*6) In  other  words,  double  can  be  typecasted  explicitly  but  not  implicitly
+
+*7) Anything  can  be  converted  to  anything  else  explicitly

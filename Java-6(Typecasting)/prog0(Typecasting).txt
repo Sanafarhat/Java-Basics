@@ -1,0 +1,7 @@
+Type casting
+----------------
+1) What  is  typecasting  ?  --->  Conversion  of  type  to  a  different  type
+
+2) Conversion  of  int  to  double , double  to  int , int  to  char  and  so  on
+
+3) What  are  the  two  different  ways  of  typecasting ? ---> Implicit  Typecasting  and  Explicit  Typecasting
