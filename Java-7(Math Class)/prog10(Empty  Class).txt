@@ -1,0 +1,50 @@
+Empty  class
+---------------
+1) What  is  an  empty  class ?  ---> A  class  without  instance  (or)  non-static  variables
+
+2) class  c1
+    {
+        int   x;
+    }
+    Is  c1  an  empty  class ? ---> No  due  to  the  existence  of  instance  variable  'x'
+
+3) class  c2
+     {
+         static  int  x  = 25;
+     }
+     Is  c2  an  empty  class  ?  ---> Yes  becoz  empty  class  can  have  static  variable  but  not  instance  variable
+
+4) class  c3
+    {
+         public  static  void  m1()
+         {
+         }
+    }
+    Is  c3  an  empty  class  ?  ---> Yes  becoz  empty  class  can  have  methods  but  not  instance  variables
+
+5) Can  empty  class  have  an  object ?  ---> Yes  but  not  recommended
+
+6) What  does  empty  class  object  contain ?  --->  Nothing  and  it  is  an  empty  object
+
+7) Why  is  empty  class  object  empty ?  ---> Since  there  are  no  instance  variables
+
+8) Therefore  avoid  empty  class  object
+
+9) class  c4
+    {
+         public  void  m1()
+         {
+         }
+    }
+    Can  an  empty  class  have  non-static  methods ?  ---> Yes  but  not  recommended  becoz  object  is  needed
+							            to  call  non-static  method  but  empty  class  usually  doesn't  have  an  object
+
+10) What  are  empty  class  methods  called  ?  --->  Usually  static  methods
+
+11) Why  are  methods  of  empty  class   static ?  --->  They  can  be  called  directly  without  an  object
+										       i.e.  classname . method()
+
+12) class  c5
+      {
+      }
+      Is  c5  an  empty  class ?  ---> Yes  becoz  there  is  no  instance  variable  in  class  c5

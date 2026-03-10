@@ -1,0 +1,33 @@
+Methods  of  Math  class
+-----------------------------
+1) pow()
+
+2) sqrt()
+
+3) abs()
+
+4) floor()
+
+5) ceil() 
+
+6) random()
+
+7) round()
+
+8) max()
+
+9) min()
+
+10) signum()
+
+
+1) Math  m  =  new  Math();
+    Is  the  statement  valid ? ---> No  due  to  private  constructor  in  Math  class
+
+2) Can  methods  of  Math  class  be  called  wrt  object  ?  --->  No  becoz  Math  class  does  not  have  an  object
+
+3) How  to  call  methods  of  Math  class ?  --->  Math . method()
+
+4) Why  are  they  called  thru  class  name  Math ?  --->  Since  they  are  static  methods  of  Math  class
+
+5) Where  is  Math  class  defined ?   --->  In  java . lang  package

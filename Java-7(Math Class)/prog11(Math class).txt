@@ -1,0 +1,19 @@
+Math  class
+-------------
+1) Is  Math  an  empty  class ?  --->  Yes  becoz  there  are  no  instance  variables  in   Math  class
+
+2) What  is  PI  called  ?  ---> A  final  static  variable  of  Math  class
+
+3) Where  is  Math  class  defined ?  ---> In  java . lang  package
+
+4) Are  methods  of  Math  class  static ?  --->  Yes
+
+5) How  to  call  methods  of  Math  class ?  ---> Math . method()
+
+6) Math  m = new  Math();
+    Is  the  statement  valid ? ---> No  due  to  private  constructor  in  Math  class
+
+7)Therefore  Math  class  object  can  not  be  created (or)  instantiated
+
+8) Are  there  non-static  methods  in  Math  class ?  --->  No  becoz  object  is  required  to  call  non-static  method  but
+    							                                   Math  class  does  not  have  an  object  due  to  private  constructor
