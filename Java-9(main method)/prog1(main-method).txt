@@ -1,0 +1,76 @@
+main  method
+---------------
+1) class  Test
+    {
+     	public  static  void   main(String[]  args)
+	{
+	}
+    }
+
+2) What  is  the  command  to  run  a  java  class ?  --->  java  classname
+										        i.e.  java  Test
+
+3) Which  java  class  can  be  executed ? ---> That  class  which  has  got  main()  method
+
+4) Can  a  class  be  executed  without  main()  method ?  ---> No
+    Can  a  program  be  compiled  without  main()  method ?  ---> Yes
+
+5) Who  calls  the  main()  method ?  --->  JVM  but  not  compiler
+
+6) When  is  main()  method  executed ?  --->  As  soon  as  we  run  the  class  with  java  classname
+
+7) Why  is  main()  method  public ? --->  JVM  is  an  outsider (i.e. not  a  member  of  the  class) and
+							        hence  it  can  call  only  public  main()  method
+
+8) What  is  the  issue  when  main()  is  private , protected (or) default  method ? --->
+								JVM   can  not  call  private , protetced  and  default  method  becoz
+								jvm  is  not  a  member  of  the  class
+
+9) Why is  main()  method  static ? --->  Since  JVM  directly  calls  main()  method  without  any  object
+
+10) Can  main()  method  be  non-static ?  --->  No  becoz  jvm  is  not  creating  any  object  to  call  main()  method
+
+11) What  does  void  mean  ?  ---> Method  returns  nothing
+
+12) Why  is  the  return  type  of  main()  method  void  ?  --->  Since  jvm  is  not  expecting  any  value  from  main()  method
+
+13) In  other  words ,  every  method  can  return  a  value  except  main()  method
+
+14) What  is  []  operator called  ?  --->  Array  operator
+
+15) Why  is  the  argument  of  main()  method  array  of  strings ?  --->
+				Since  inputs  passed  from  command  line  are  represented  in  args  array  in  the  form  of  strings
+
+16) java  Test   25   "Rama Rao"   10000.0    m    true
+      What  is  the  above  line  called ?  --->  Command  line (or)  execution  command
+      What  are  25 , "Rama  Rao" , 10000.0 ,  m  and  true  called ? ---> Command  line  inputs
+
+17) Where  are  command  line  inputs  saved  ?  --->  In  args  array  in  the  form  of   strings
+
+18) java  Test   25   "Rama Rao"   10000.0    m    true
+      What  is  args[0]  ? --->  "25"   but  not  integer  25
+      What  is  args[1]  ? --->  "Rama  Rao"
+      What  is  args[2]  ? --->  "10000.0"  but  not  double  10000.0
+      What  is  args[3]  ? --->  "m"  but  not  character  'm'
+      What  is  args[4]  ? --->  "true"  but  not  boolean  true
+
+19) Is  args  a  user  defined  word  (or)  key  word ?  ---> User  defined  word
+
+20) What  is  the  complete  signature  of  main()  method ?  ---> public  static  void  main(String[]  args)
+
+21) Can  signature  of  main  method  be  changed ?  --->  No
+
+22) What  is  the  issue  when  signature  of  main()  method  is  changed ?  --->
+											Class  can  not  be  executed  and  java  classname  throws  error
+
+23) class  Test
+      {
+      }
+      public   static   void   main(String[]   args)
+      {
+      }
+      Can  main()  method  be  defined  outside  the  class  ?  ---> No
+
+24) In  other  words,  every  method  should  be  defined  inside  the  class  including  main()  method
+
+25) Nothing  can  be  defined  outside  the  class

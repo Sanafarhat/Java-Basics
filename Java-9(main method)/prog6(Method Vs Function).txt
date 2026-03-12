@@ -1,0 +1,37 @@
+Method  Vs  Function
+-------------------------
+1) class  c1
+     {
+	   void   m1()
+	   {
+	   }
+     }
+     void   f1()
+     {
+     }
+     What  is  the  difference  between  m1()  and  f1() ?  --->
+									m1()  is  a  method  of  class  c1  becoz  it  is  defined  inside  the class
+									but  f1()  is  a  function  becoz  it  is  defined  outside  the  class
+
+2) Is  method  a  member  of  the  class ?  ---> Yes
+    What  about  function ?  --->  It  is  not  a  member  of  the  class
+
+3) How  is  a  method  called  ?  --->  object . method()
+    How  is   a  function  called  ?  ---> function()  but  not  object . function()
+
+4) m1();
+    Is  the  above  method  call   valid ?  ---> No  becoz  method(i.e. non-static  method)  can  not  be  called  without  object
+    obj . f1();
+    Is  the  above  function  call  valid ?  ---> No  becoz  function  can  not  be  called  wrt  object
+
+5) Does  java  support  functions  ? ---> No  and  java  supports  only  methods
+
+6) Is  main()  a  function (or)  method ?  --->  Method
+
+
+Note:
+1) c , c++  and  python  support  functions  but  not  java
+
+2) Every  method  should  be  defined  inside  the  class  in  java ( including  main()  method)
+
+3) main()  is  a  function  in  c  and  c++

@@ -1,0 +1,33 @@
+Which  of  the  following  are  valid ?
+1) static  public  void  main(String[]  args)  ---> Valid  becoz  public  and  static  can  be  in  any  order
+
+2) public  static  void  main(String  []args)  ---> Valid  becoz  []  can  be  written  anywhere
+
+3) public  static  void  main(String   []    args)  ---> Valid  becoz  spaces  are  permitted  before  and  after  []
+
+4) public  static  void  main(String  args[])  --->  Valid  becoz  []  can  be   before  (or)  after  args
+
+5) public  static  void  main(String...  args)  --->  Valid  becoz  []  can  be  replaced  with  ...
+
+6) public  static  int  main(String[]  args)  --->  Error  due  to  non-void  return  type
+
+7) public  static  void  main(String   []    a)  --->  Valid  becoz  array  name  can  be  anything  but  not  necessarily  args
+
+8) public  static  void  main(String    args)  --->  Error  becoz  args  should  be  array  of  strings  but  not  String
+
+9) public  static  void  main(int[]  a)  --->  Error  becoz  argument  should  be  array  of  strings  but  not  array  of  integers
+
+10) public  static  void  main()  ---> Error  becoz  there  is  no  argument
+
+11) public  static  void  main(String[]  args1 , String[]  args2)  --->  Error  due  to  two  arguments
+
+12) private  static  void  main(String[]   args)   ---> Error  becoz  JVM   can  not  call  private  main()  method
+
+13) protected  static  void  main(String[]   args)   ---> Error  becoz  JVM   can  not  call  protected  main()  method
+
+14) static  void  main(String[]  args)   ---> Error  becoz  JVM   can  not  call  default  main()  method
+
+15) default  static  void  main(String[]   args)   --->  Error  becoz  there  is  no  default  keyword
+
+16) public  void  main(String[]  args)   ---> Error  becoz  JVM  can  not  call  non-static  main()  method  as
+								 jvm  is  not  creating  any  object  to  call  main()  method
