@@ -1,0 +1,11 @@
+Summary
+-----------
+1) What  are  the  two  ways  to  read  a  character  input ?
+    a) char  ch = s . nextLine() . charAt(0)
+    b) char  ch =  (char)System . in . read()
+
+2) What  is  preferred  for  reading  character  input ?  --->  s . nextLine() . charAt(0)
+
+3) What  is  the  advantage  of  s . nextLine()  . charAt(0) ?  ---> Typecasting  is  not  required
+															  and
+												       Exception  need  not  be  declared  (or)  caught

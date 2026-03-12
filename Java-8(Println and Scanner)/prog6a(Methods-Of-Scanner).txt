@@ -1,0 +1,45 @@
+Reading  inputs
+------------------
+1) How  to  read  an  integer  input ?   ---> With  nextInt()  method
+    How  to  read  a  double  input ?   ---> With  nextDouble()  method
+    How  to  read  a  boolean  input ? ---> With  nextBoolean()  method
+    How  to  read  a  string  input ?   --->  With  nextLine()  method  (or)  next()  method
+    How  to  read  a  character  input ?  ---> There  is  no  method  to  read  character  input
+
+2) Where  are  all  the  above  methods  defined ?  --->  In  Scanner  class
+
+3) Where  is  Scanner  class  defined  ?  ---> In  java . util  package
+
+4) int  x = Scanner . nextInt();
+    Is  the  method  call  valid  ?  ---> No  becoz  nextInt()  is  not  a  static  method  of  Scanner  class
+
+5) What  is  mandatory  to  call  methods  of  Scanner  class  ?  --->  Scanner  class  object
+
+6) In  other  words,  all  the  methods  of  Scanner  class  are  non-static  methods  and
+    hence  object  is  mandatory  to  call  them
+
+7) How  to  create  Scanner  class  object  ? ---> Scanner   s  =  new  Scanner(System . in);
+
+8) What  does  Scanner  class  object  contain ?  ---> Reference  of  Keyboard
+
+9) int  x =  s . nextInt();
+    What  does  the  method  do  when  input  is  25 ?  ---> Reads  25  to  variable  'x'
+
+10) String  str1 = s . next();
+      String  str2 = s . nextLine();
+      What  is   the  difference  between  next()  and  nextLine()  methods ?  ---->
+										next()  method  reads  a  single  word  string
+													and
+									        nextLine()  method  can  read  a  multi-word  string
+
+11) How  many  inputs  can  nextxxx()  method  read ?  ---> Single  input
+
+12) How  to  read  'n'  inputs ?  --->  Call  nextxxx()  method  'n'  times
+
+13) What  is  the  dis-advantage  of  nextxxx()  method ?  --->  Program  execution  becomes  slow  due  to  too  many  calls
+
+
+Note:
+1) There  are  other  methods  in  Scanner  class  like  nextLong() ,  nextFloat()  , nextByte() , nextShort()
+
+2) What  does  nextChar()  method  do  ?  ---> There  is  no  nextChar()  method  in  Scanner  class

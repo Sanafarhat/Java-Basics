@@ -1,0 +1,11 @@
+Which  of  the  following  are  valid ?
+1) System . println("Hello")  --->  Invalid  becoz  there  is  no  println()  method  in  System  class
+
+2) PrintStream . println("Hyd")  --->  Invalid   becoz  println()  is  not  a  static  method  of  PrintStream  class
+
+3) out . println("Hyd");  --->  Invalid  becoz  out  is  not  a  local  object  to  the  method  nor  static  object  in  the  class
+
+4) System  s  =  new  System();  --->  Invalid  due  to  private  constructor  in  System  class   and  hence
+                                                           object  can  not  be  created (or)  instantiated
+
+5) PrintStream  ps  =  new  PrintStream(No-args);  ---> Invalid  becoz  PrintStream  constructor  demands  arguments

@@ -1,0 +1,20 @@
+print()  Vs  println()
+-----------------------
+1) What  does  print()  method  do ?  ---> Prints  an  argument  on  console  and  remains  in  the  same  line
+    What  does  println()  method  do ?  ---> Prints  an  argument  on  console  and  moves  to  next  line
+
+2) What  does  System . out . print("Hyd")  do ? ---> Prints  Hyd   and  remains  in  same  line
+     What  does  System . out . println("Hyd")  do ?  ---> Prints  Hyd   and  moves  to  next  line
+
+3) Where  are  print()  and  println()  methods  defined  ?  ---> In  PrintStream  class
+
+4) How  many  arguments  can  they  take ?  ---> One  (or) none  but  not  more  than  one
+
+5) What  does  System . out . print(No-args)  do ? --->  Prints  nothing  and  remains  in  same  line
+     What  does  System . out . println(No-args)  do ? ---> Prints  nothing  and  moves  to  next  line
+
+6) System . out . print(variable1 , variable2 , variable3);
+     Is  the  statement  valid ?  ---> No  due  to  multiple  arguments
+
+7) How  to  print  multiple  variables  with  print()  and  println() ?  --->
+												Concatenate  them  to  form  a  string  and  print  string

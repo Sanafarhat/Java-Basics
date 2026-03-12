@@ -1,0 +1,16 @@
+println()  Vs  println()
+------------------------
+1) Which  classes  have  println()  method ? ---> In  both  PrintStream  and  PrintWriter  classes
+
+2) System . out . println("Hyd");
+     Do  we  need  to  create  object  out ?  ---> No  and  it  is  already  created  in  System  class
+     pw . println("Hyd");
+     Is  object  pw  already  created  ?  --->  No  and  we  have  to  create  PrintWriter  object  with  new  operator
+
+3) PrintWriter   pw  = new  PrintWriter(System . out /  "a.txt" , true);
+    pw . println("Hyd");
+    pw . close();
+    Where  can  println()  method  of  PrintWriter  class  write ? --->  Console , file  and  browser
+    System . out . println("Hyd")
+    Where  can  println()  method  of  PrintStream  class  write ? --->
+								Only  to  console  but  not  to  file  and  browser  becoz  System . out  is  console

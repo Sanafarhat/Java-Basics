@@ -1,0 +1,26 @@
+PrintWriter  class
+---------------------
+1) PrintWriter  pw = new  PrintWriter(System . out);
+    What  does  object  pw  contain ? --->  Reference  of  console  i.e.  System . out
+
+2) Where  is  PrintWriter  class  defined ?  ---> In  java . io  package
+
+3) PrintWriter  pw = new  PrintWriter(System . out , true);
+    pw . println("Hyd");
+    What  does  the  statement  do ?  --->  Prints  "Hyd"  on  console  and   moves  to  next  line
+
+4) PrintWriter  pw = new  PrintWriter(System . out , false);
+    pw . println("Hyd");
+    Is  "Hyd"  printed ?  ---> No  due  to  the  2nd  argument  false
+
+5) PrintWriter  pw = new  PrintWriter(System . out);
+    What  is  the  default  2nd  argument  of  PrintWriter  constructor ?  --->  false
+
+6) PrintWriter  pw = new  PrintWriter(System . out);
+    pw . println("Hyd");
+    pw . close();
+    Is  "Hyd"  printed ?  ---> Yes  due  to  pw . close()
+
+7) PrintWriter  pw = new  PrintWriter("a.txt");
+    pw . println("Hyd");
+    What  does  the  statement  do ?  ---> Writes  "Hyd"  to  the  file  a.txt

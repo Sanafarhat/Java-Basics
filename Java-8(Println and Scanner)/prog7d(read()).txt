@@ -1,0 +1,36 @@
+read()  method
+------------------
+1) What  does  read()  method  do ?  ---> Reads  unicode  value  of  the  character  but  not  character
+
+2) char  ch = (char)System . in . read();
+    What  does  read()  method  do  when  input  is  'A'  ?  ---> Reads  unicode  value  of  'A'  i.e.  65
+    What  does  (char)65  do ?  ---> Converts  65  to. 'A'
+
+3) What  is  the  return  type  of  read()  method ?  ---> int  becoz  it  reads  unicode  value  which  is  an  integer
+
+4) Where  is  read()  method  defined ?  --->  In  InputStream  class
+
+5) Where  is  InputStream  class  defined  ?  ---> In  java . io  package
+
+6) InputStream . read();
+    Is  the  statemenet  valid ? --->  No  becoz  read()  is  not  a  static  method  of  InputStream  class
+
+7) What  is  needed  to  call  read()  method ?  --->  InputStreamClass  class  object  'in'
+
+8) Do  we  need  to  create  object  in ?  --->  No  and  it  is  already  created  in  System  class
+
+9) System . in
+    Why  is  'in'  accessed  thru  classname  System ?  ---> Since  it  is  a  static  object  in  System  class
+
+10) What  does  read()  method  throw ?  ---> IOException
+
+11) Where  is  IOException  class  defined  ? --->  In  java . io  package
+
+12) Can  IOException  be  ignored ?  ---> No  becoz  IOException  should  be  caught  or  declared
+
+13) What  happens  when  IOException  is  neither  caught  nor  declared  ?  --->
+													read()  method  won't  be  compiled  and  throws  error
+
+14) How  many  inputs  can  read()  method  read ?  --->  Single
+
+15) How  to  read  'n'  characters ?  --->  Call  read()  method  'n'  times  in  a  loop
