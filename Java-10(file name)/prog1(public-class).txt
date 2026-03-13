@@ -1,0 +1,50 @@
+public  class
+---------------
+1) package   p1;
+    public  class  c1
+    {
+    }
+    Where  does  class  c1  reside ?  ---> In  package  p1
+    What  is  the  class  name ?  ---> p1 . c1
+    Can  class  c1  be  reused  by  other  packages ?  ---> Yes  becoz  it  is  a  public  class  of  package  p1
+
+2) What  is  the  advantage  of  public  class ?  --->  Reusability
+										  i.e. It  can  be  reused  by  other  packages
+
+3) How  to  reuse  class  c1  from  other  packages ?  --->  p1 . c1
+
+4) public  class  c2
+    {
+    }
+    Where  does  class  c2  reside ?  ---> In  default  package  which  is   a  nameless  package
+    What  is  the  class  name ?  ---> c2
+    Can  class  c2  be  reused  by  other  packages ?  ---> No  becoz  it  is  in  default  package  which  is  a  nameless  package
+
+5) package  p1;
+    class  c3
+    {
+    }
+    Where  does  class  c3  reside ?  ---> In  package  p1
+    What  is  the  class  name ?  ---> p1 . c3
+    Can  class  c3  be  reused  by  other  packages ?  ---> No  becoz  it  is  not  a  public  class
+    Who  can  use  class  c3 ?  --->  It  can  be  reused  by  same  package  but  not  in  other  packages
+
+6) What  is  the  constraint  for  public  class ?  ---> class  name  and  filename  should  be  same
+     What  about  regular  class ?  ---> class  name  and  file  name  need  not  be  the  same
+
+7) Where  can  public  class  c1  be  saved ?  --->  In  c1 . java   file
+     Where  can  regular  class  be  saved ?  ---> In  any  file
+
+8) What  happens  when  public  class  is  saved  in  a  different  file ?  --->  Program  can  not  be  compiled
+														       i.e. javac  filename.java  throws  error
+     Can  regular  class  be  compiled  when  it  is  saved  in  a  different  file ?  ---> Yes
+
+9) Can  a  file  have  multiple  public  classes ?  ---> No  becoz  filename  becomes  an  issue
+                                                                                i.e. Each  public  class  should  be  saved  in  a  different  file
+    Can  a  file  have  multiple  regular  classes ?  ---> Yes  becoz  there  is  no  filename  constraint
+
+10) Finally  file  can  have  multiple  regular  class  but  at  most  one  public  class
+
+11) Are  pre-defined  classes  public ?  --->  Yes  and  hence  we  are  able  to  use  them
+
+12) What  is  the  issue  when  String , System , Math  classes  are  not  public ?  --->  They  can  not  be  imported  and  used
