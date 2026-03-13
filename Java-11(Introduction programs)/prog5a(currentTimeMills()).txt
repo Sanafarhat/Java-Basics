@@ -1,0 +1,49 @@
+currentTimeMillis()  method
+---------------------------------
+1) What  does  currentTimeMillis()  method  do ?  ---> Returns  current  time  in  milliseconds  since  1 . 1 . 1970  midnight 
+										     which  is  called  epoch  time
+
+2) What  is  the  result  of  currentTimeMillis()  ?  --->  55 * 365 * 24 * 60 * 60 * 1000 (approx)
+
+3) Where  is  currentTimeMillis()  method  defined ?  ---> In  System  class
+
+4) System . currentTimeMillis();
+    Why  is  it  called  thru  classname  System ?  ---> Since  it  is  a  static  method  of  System  class
+
+5) What  is  the  return  type  of  currentTimeMillis()  method  ?  --->  long
+
+6) int  x = System . currentTimeMillis();
+    Is  the  statement  valid ?  ---> No  due  to  mismatch  in  types  i.e. int  and  long
+
+7) long  a = System . currentTimeMillis();  --->  Current  time  before  execution  of  100  statements
+    stmt1;
+    stmt2;
+    stmt3;
+    ......
+    stmt100;
+    long  b = System . currentTimeMillis();  --->  Current  time  after  execution  of  100  statements
+    What  is  the  result  of  b - a ?  --->  Execution  time  of  100  statements  in  milliseconds
+
+8) long  a = System . currentTimeMillis();  --->  Current  time  before  execution  of  m1()  method
+    m1();
+    long  b = System . currentTimeMillis();  --->  Current  time  after  execution  of  m1()  method
+    What  is  the  result  of  b - a ?  --->  Execution  time  of  m1()  method  in  milliseconds
+
+9) long  a = System . currentTimeMillis();
+    if stmt / switch stmt / for loop / while loop / do ... while  loop
+    long  b = System . currentTimeMillis();
+    What  is  the  result  of  b - a ?  --->  Execution  time  of  if / switch / for / while / do ... while  in  milliseconds
+
+10) It  is  possible  to  determine  time  taken  to  execute
+      a) A  group  of  statements
+      b) if  statement
+      c) switch  statement
+      d) for  loop
+      e) while  loop
+      f) do..while
+      g) method
+      h) program
+
+11) new  System() . currentTimeMillis();
+     Can  the  method  be  called  wrt  object ?  ---> No  becoz  System  class  can  not  have  an  object  due  to 
+										private  constructor  in  System  class

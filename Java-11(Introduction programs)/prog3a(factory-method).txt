@@ -1,0 +1,42 @@
+Factory  method
+-------------------
+1) What  is  a  factory  method ?  ---> A  method  which  returns  same  class  object
+
+2) Is  factory  method  static ?  ---> Yes  and  it  is  usually  static
+
+3) class  c1
+    {
+	public  static  c1  m1()
+	{
+	      c1   a  =  new    c1();
+	      return  a;
+	}
+    }
+    Is  m1()  a  factory  method  ? ---> Yes  becoz  it  returns  same  class  object
+
+4) Why  is  return  type  of  m1()  method  c1 ?  --->  Since  m1()  method  returns  object  'a'  which  is  of  type  c1
+
+5) class   c1
+     {
+	   factory  static  c1   m1()
+	   {
+		c1   a  =  new    c1();
+		return  a;
+	   }
+    }
+    Is  the  above  method  valid ?  ---> No  becoz  there  is  no   factory  keyword
+
+6) class  c1
+    {
+    }
+    class   c2
+     {
+           public  static  c1   m1()
+	   {
+		c1   a  =  new    c1();
+		return  a;
+	   }
+     }
+    Is  m1()  a  factory  method  ? ---> No  becoz  'a'  is  a  different  class  object  but  not  c2  class  object
+
+7) In  other  words,  method  of  class  c2  returns  c1  class  object  and  hence  it  is  not  a  factory  method

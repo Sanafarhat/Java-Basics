@@ -1,0 +1,49 @@
+exec()  method
+------------------
+1) What  does  exec()  method  do ?  --->  Executes  that  exe  file  which  is  a  part  of  underlying  o.s.
+								  i.e.  windows , unix  and  so  on
+
+2) How  to  open  notepad  from  java  program ?  ---> exec("notepad.exe")
+
+3) What  does  exec("notepad.exe")  do ?  --->  Executes  notpad.exe  file  which  is  a  part  of  windows  os
+
+4) exec("notepad")
+    Can  extension  exe  be  omitted ?  --->  Yes  becoz  default  extension  is  exe
+
+5) How  to  open  notepad  with  test.java  file ?  --->  exec("notepad  test.java")
+
+6) How  to  open  calculator  from  java  program ?  --->  exec("calc.exe")
+
+7) What  does  exec("calc.exe")  do ?  --->  Executes  calc.exe  file  which  is  a  part  of  windows  os
+
+8) How  to  open  paint  from  java  program ?  --->  exec("mspaint.exe")
+
+9) What  does  exec("mspaint.exe")  do ?  --->  Executes  mspaint.exe  file  which  is  a  part  of  windows  os
+
+10) What  does  exec()  method  throw ?  ---> IOException
+
+11) Can  IOException  be  ignored ?  ---> No  and  it  should  be  caught  (or)  declared
+
+12) Where  is  IOException  class  defined ?  ---> In  java . io  package
+
+13) Where  is  exec()  method  defined  ?  --->  In  Runtime  class
+
+14) Where  is  Runtime  class  defined ? --->  In  java . lang  package
+
+15) Runtime . exec("notepad");
+      Is  the  statement  valid ?  --->  No  becoz  exec()  is  not  a  static  method  of  Runtime  class
+
+16) What  is  the  needed  to  call  exec()  method ?  ---> Runtime  class  object  becoz  it  is  a  non-static  method
+
+17) Runtime  r  = new  Runtime();
+      Is  the  statement  valid ? --->  No  becoz  Runtime  class  object  can  not  be  created  with  new  operator
+							due  to  private  constructor  in  Runtime  class
+
+18) How  to  create  Runtime  class  object ?  --->  With  getRuntime()  method
+
+19) What  does  getRuntime()  method  do ?  ---> Creates  Runtime  class  object  and  returns  the  object
+
+20) Runtime  r =  Runtime . getRuntime();
+      Why  is  getRuntime()  method  called  thru  classname  Runtime ?  ---> Since  it  is  a  static  method  of  Runtime  class
+
+21) Is  getRuntime()  a  factory  method ?  --->  Yes

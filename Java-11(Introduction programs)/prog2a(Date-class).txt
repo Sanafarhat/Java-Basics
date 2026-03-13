@@ -1,0 +1,18 @@
+Date  class
+-------------
+1) Date  d = new  Date();
+   What  are  the  two  events ?  --->  Creates  Date  class  object  which  is  initialized  with
+							   current  date , current  time  and  day  of  the  week
+
+2) Who  is  initializing  the  object ?  ---> Constructor
+
+3) When  is  constructor  executed  ?  ---> As  soon  as  object  is  created
+
+4) Where  is  Date  class  defined ?  ---> In  java . util  package
+
+5) Date  d = new  Date();
+    What  is  the  name  of  object ?  ---> 'd'
+
+6) What  does  d . getClass() . getName()  do ?  --->  Returns  the  classname  of  object  'd'  i.e.  java.util.Date
+
+7) In  other  words,  object . getClass() . getName()  returns  full  classname  but  not  classname
