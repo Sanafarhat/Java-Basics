@@ -1,0 +1,13 @@
+Which  of  the  following  are  valid ?
+-------------------------------------------
+1) import  static  java . lang . System . in  --->  Valid  becoz  'in'  is  a  static  member  of  System  class
+
+2) import  java . lang . Math . PI  --->  Error  becoz  regular  import  can  not  import  static  variable
+
+3) import  static  java . lang . Math . sqrt  ---> Valid  becoz  sqrt  is  a  static  method  of  Math  class
+
+4) import  static  java . lang . System . exit()  --->  Error  due  to  ()
+
+5) import  static  java . io . PrintStream . println --->  Error  becoz  println()  is  not  a  static  method  of  PrintStream  classs
+
+6) import  static  java . lang . *  --->  Error  becoz  classname  is  missing  before  *

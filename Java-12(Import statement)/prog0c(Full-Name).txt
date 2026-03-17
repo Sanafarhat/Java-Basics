@@ -1,0 +1,27 @@
+How  to  use  java  classes  without  import
+--------------------------------------------------
+1) Scanner  s = new  Scanner(System . in);
+    How  to  create  Scanner  class  object  without  importing  Scanner  class ? --->
+										java . util . Scanner  s = new  java . util . Scanner(System . in)
+
+2) PrintWriter  pw = new  PrintWriter(System . out , true);
+    How  to  create  PrintWriter  class  object  without  importing  PrintWriter  class ? --->
+								java . io . PrintWriter  pw = new  java . io . PrintWriter(System . out , true);
+
+3) catch(IOException   e)
+    {
+    }
+    How  to  catch  IOException  without  importing  IOException  ? --->   catch(java . io . IOException  e)
+														   {
+														   }
+
+4) void  m1()  throws  IOException
+    {
+    }
+    How  to  define  m1()  method  without  importing  IOException ? --->  void  m1()  throws  java . io . IOException
+														   {
+													           }
+
+5) In  general,  when  can  a  class  be  used  without  import ? ---> When  the  full  classname  is  being  used
+
+6) When  is  a  class  imported ? --->  When  full  classname  is  not  used

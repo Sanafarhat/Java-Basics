@@ -1,0 +1,46 @@
+static  import
+----------------
+1) How  is  static  variable  accessed ?  ---> classname . variable
+
+2) How  to  use  static  variable  without  classname  prefix ?  --->  Import  the  static  variable
+										    
+3) import  static  packagename . classname . staticvariable
+    What  is  the  advantage  of  importing  static  variable  ? --->  It  can  be  accessed  directly  without  classname  prefix
+
+4) How  is  static  method  called ?  --->  classname . method()
+
+5) How  to  call  static  method  without  classname  prefix ?  --->  Import  the  static  method
+										    
+6) import  static  packagename . classname . staticmethod;
+    What  is  the  advantage  of  importing  static  method  ? ---> It  can  be  called  directly  without  classname  prefix
+
+7) How  to  import  all  the  static  members  of  class ?  --->  import  static  packagename . classname . *
+
+8) What  does  '*'  indicate  ?  --->  All  the  static  variables  and  static  methods  of  the  class
+
+9) What  is  the  advantage  of  using  '*' ?  --->  
+							Every  static  member  of  the  class  can  be  used  directly  without  classname  prefix
+
+10) import  static  packagename . classname . static-method();
+      Is  the  statement  valid ?  ---> No  due  to  ()
+
+11) import  static  packagename . classname . non-static-variable;
+     Is  the  statement  valid ?  ---> No  becoz  static  import  can  not  import  non-static-variable  of  the  class
+
+12) import  static  packagename . classname . non-static-method;
+      Is  the  statement  valid ?  ---> No  becoz  static  import  can  not  import  non-static-method  of  the  class
+
+13) Finally  static  import  can  not  import  non-static  members  of  the  class
+
+14) import   packagename . classname . static-variable;
+      Is  the  statement  valid ?  ---> No  becoz  regular  import  can  not   import  static  variable
+
+15) In  other  words,  only  static  import  can  import  static  variables  and  static-methods
+
+16) import   static  packagename . *;
+      Is  the  statement  valid ?  --->  No  becoz  classname  is  mandatory  in  static  import
+							 i.e.  packagename . classname . *
+
+
+Note:
+static  import  is  introduced  in  java-5

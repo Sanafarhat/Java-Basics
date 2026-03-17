@@ -1,0 +1,84 @@
+import  statement
+---------------------
+1) Can  a  class  be  used  without  importing  the  class ?  --->  No
+
+2) What  is  the  pre-requisite  to  use  a  class  in  the  program ?  --->  It  needs  to  be   imported
+
+3) Where  can  import  statement  be  used  in  the  program ?  --->  Any  where  in  the  program  but  preferably
+												            at  the  begining  of  the  program
+
+4) Is  ;  mandatory  at  the  end  of  import ?  --->  Yes  becoz  import  is  a  statement
+
+5) What  are  the  two  different  types  of  import  statements ?  ---> Explicit  import  and  implicit  import
+
+6) What  is  the  syntax  of  explicit  import ?  ---> import  packagename . classname
+								                 Eg:  import  java . util . Scanner;
+
+7) import  packagename . classname;
+    Why  is  it  called  explicit  import  ?  ---> Since  classname  is  used  in  import  statement
+
+8) When  is  explicit  import  recommended ?  --->  When  a  single  class  of  the  package  is  being  used
+
+9) What  is  the  syntax  of  implicit  import ?  --->  import  packagename . *;
+									         Eg:  import  java . util . *;
+
+10) import  packagename . *;
+      Why  is  it  called  implicit  import  ?  ---> Since  *  is  being  used  in  the  import  statement
+
+11) What  does  *   indicate ?  --->  All  the  classes  of  the  package
+
+12) When  is  implicit  import  recommended ?  --->  When  multiple  classes  of  the  package  are  being  used
+
+13) import  java . util . Date;
+      import  java . util . Scanner;
+      import  java . util . Arrays;
+      How  to  reduce  the  three  statements  to  a  single  statement ?  ---> import  java . util . *;
+
+14) import  packagename . *;
+      Are  all  the  classes  of  the  package  imported ?  --->  No  and  those  classes  which  are  being  used  are  imported
+      
+15) This  is  called  dynamic  import      
+
+16) Is  import  mandatory  to  use  classes  of  same  package ?  --->  No  and  they  can  be  used  directly  without  import
+
+17) In  other  words,  class  of  same  package  can  be  used  directly  without  import
+
+18) When  is  import  statement  mandatory ? --->  When  classes  of  a  different  package  are  used
+
+19) Can  String , System , Math  and  Runtime  classes  be  used  without  import ?   --->  
+						Yes  becoz  they  are  automactically  imported  as   they  are  in  java . lang  package
+						
+20) import   java . lang . *;
+     Is  the  above  import  mandatory  (or)  optional ?  ---> Optional  becoz  classes  of  lang  package  can  be  used
+											   without  import  as  they  are  automatically  imported
+
+21) What  about  classes  of  other  packages ?  --->  They  have  to   be  imported  before  their  usage
+
+22) Is  Scanner  automatically  imported ?   --->  No  becoz  it  is  in  java . util  package
+
+23) import  java . lang . reflect . Method;
+      Can  Method  class  be  used  without  import ?  --->  No  becoz  Method  is  a  class  of  sub-package  reflect  but  not  a
+										         class  of  lang  package
+
+24) In  other  words,  classes  of  lang  package  can  be  used   without  import  but  not   classes  of  sub-package  reflect
+
+25) import  java . awt . *;
+      import  java . awt . event . *;
+      Is  2nd  import  mandatory  (or) optional ?  ---> Mandatory   becoz  1st  import  permits  to  use  classes  of  awt  package
+									         but  not  classes  of  subpackage  event.
+
+26) Hence  2nd  import  is  mandatory  when  classes  of  subpackage  event  are  being  used
+
+27) import  packagename;
+      Is  the  statement  valid ?  ---> No  becoz  package  can  not  be  imported
+
+28) In  other  words,  classes  of  the  package  can  be  imported  but  not  package
+
+29) How  to  use  classname  without  import ?   ---> With  full  classname  (or)  absolute  classname
+
+30) How  to  create  Scanner  class  object  without  import ?  --->  
+										java . util . Scanner  s  =  new  java . util . Scanner(System . in)
+
+31) What  is  the  issue  with  full  class  name ?  --->  Typing  full  classname  every  time  in  the  program  is  tedious(difficult)
+
+32) What  is  the  advantage  of  importing  a  class  ?  ---> Full  class  name  is  not  needed  and  just  classname  is  enough

@@ -1,0 +1,27 @@
+Observation
+---------------
+1) Let  package  p1  contain  classes  c1 ,  c2 ,  c3  and  sub-packages  p2  and  p3,
+    Let  sub-package  p1 . p2  contain  classes  c4  and  c5  and  sub-package  p4 ,
+    Let  sub-package  p1 . p3  contain  classes  c6  and  c7  ,
+    Let  sub-package  p1 . p2 . p4  contain  class  c8  and  sub-package  p5
+    and   Let  sub-package  p1 . p2 . p4 . p5  contain  class  c9
+
+2) What  is  the  import  statement  to  use  classes  c1 , c2  and  c3 ?  --->  import  p1 . *;
+
+3) import  p1 . *;
+    Can  classes  c4  and  c5  be  used ?  --->  No  becoz  they  are  classes  of  sub-package  p2
+
+4) What  is  the  import  statement  to  use  classes  c4  and  c5 ?  --->  import  p1 . p2 . *;
+
+5) import  p1 . p2 . *;
+    Can  classes  c1 , c2  and  c3  be  used ?  ---> No  becoz  they  are  classes  parent  package  p1
+    Can  class  c8  be  used ?  --->  No  becoz  it  is  a  class  of  sub-package  p4
+    
+6) What  is  the  import  statement  to  use  classes  c6  and  c7 ?  ---> import  p1 . p3 . *;
+
+7) What  is  the  import  statement  to  use  class  c8 ?  ---> import  p1 . p2 . p4 . c8;
+
+8) import  p1 . p2 . p4 . *;
+    Can  class  c9  be  used ?  ---> No  becoz  it  is   a  class  of  sub-package  p5
+
+9) What  is  the  import  statement  to  use  class  c9 ?  --->  import  p1 . p2 . p4 . p5 . c9;

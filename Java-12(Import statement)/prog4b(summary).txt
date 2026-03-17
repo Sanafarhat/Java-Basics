@@ -1,0 +1,22 @@
+Summary
+-----------
+package  p1;
+class  c1  
+{
+	static  int  x;
+        int  y;
+        public  static  void  m1()
+        {
+        }
+        public  void  m2()
+        {
+        }
+}
+
+1) Where  is  class  c1  defined (i.e. in  which  package)?  --->  Package  p1
+
+2) Which  of  the  following  are  valid  ?
+     a) import  static  p1 . c1 . y  --->  Error  becoz  'y'  is   not  a  static  variable  of  class  c1  in  package  p1
+     b) import  static  p1 . c1 . x  ---> Valid  becoz  'x'  is  static  variable  of  class  c1  in  package  p1
+     c) import  static  p1 . c1 . m2  --->  Error  becoz  m2  is  not  a  static  method   of  class  c1  in  package  p1
+     d) import  static  p1 . c1 . m1 --->  Valid  becoz  m1  is  a  static  method   of  class  c1  in  package  p1

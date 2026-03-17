@@ -1,0 +1,35 @@
+ Regular  Import   Vs   Static  Import
+---------------------------------------------
+1) What  does  regular  import  do ?  ---> Imports  classes  of  the  package 
+    What  does  static  import  do ?  ---> Imports  static  memebers (i.e. variables  and  methods)  of  the  class 
+
+2) What  are  the  two  syntaxes  of  regular  import ?  --->  import  packagename . classname
+												   		  and
+											       import  packagename . *    
+    What  are  the  three  syntaxes  of  static  import ?  --->  import  static  packagename . classname . staticvariable
+											        import  static  packagename . classname . staticmethod
+									                        import  static  packagename . classname . *;
+      	
+3) import  packagename . *;
+    What  does  *  indicate ?  --->  All  the  classes  of  the  package
+    import  static  packagename . classname .  *;
+    What  does  *  indicate ?  ---> All  the  static  variables  and   static  methods  of  the  class
+
+4) What  is  the  advantage  of  importing  a  class ?  --->  Full  classname  is  not  required
+											   i.e.  classname  can  be  used  directly  without  package-name  prefix
+    What  is  the  advantage  of  importing  static  variables  and  methods  ?  --->  															
+								class  name  prefix  is  not  needed  for  accessing  static  members  of  the  class
+
+5) What  is  the  priority  of  classes ?  --->  a) Classes  which  are  imported  explicitly  have  got  highest  priority 
+								      b) Classes  of  same  package (i.e. current  working  directory) have  got  
+								           next  higher  priority								 
+								      c) Classes  which  are  imported  implicitly  have  got  lowest  priority 
+    What  is  the  priority  of  static  members ?  --->           								      
+								      a) Static  members  of  same  class  have  got  highest  priority									
+							              b)  Static  members  which  are  imported  explicitly  have  got
+									   next  higher  priority								           										    
+							              c) Static  members  which  are  imported  implicitly  have  got  lowest  priority
+
+Note:
+When  is  regular  import  introduced  to  java  ?  ---> From  java  1 
+When  is  static  import  introduced  to  java  ?  --->  From  java  5
