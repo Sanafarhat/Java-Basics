@@ -1,0 +1,47 @@
+Source  Code
+----------------
+1) What  is  source  code ?  ---> Code  designed  by  programmer
+
+2) Where  is  souce  code  saved ?  --->  In  java  file
+
+3) Who  takes  source  code  as  input ?  --->  Compiler 
+
+4) Can  source  code  be  compiled ?  --->  Yes
+    Can  source  code  be  executed ?  ---> No
+
+Bytecode
+-----------
+1) What  is  bytecode ?  ---> Intermediate  code
+
+2) Where  is  bytecode  saved ?  ---> In  class  file
+
+3) Who  generates  bytecodes ?  --->  Compiler
+     Who  takes  bytescodes  as  input ?  --->  JVM
+
+4) What  is  the  advantage  of  bytecode ?  ---> Platform  independent
+
+5) What  is  platform  independency ?  ---> Bytecodes  are  same  for  all  the  jvm's
+
+6) Can  bytecodes  be  executed ?  --->  No
+
+Machine  Code
+-----------------
+1) What  is  machine  code ?  --->  It  is  the  code  executed  by  the  system
+
+2) What  is  the  drawback  of  machine  code ? ---> Platform  dependent
+
+3) What  is  platform  dependency ?  --->  Machine  codes  vary  from  system  to  system
+
+4) In  other  words, each  machine  has  got  a  different  set  of  machine  codes
+
+5) Where  is  machine  code  saved ?  --->  No  file
+
+6) Where  does  machine  code  reside ?  ---> It  remains  in  memory  as  long  as  program  is  under  execution  and  
+								        lost  soon  after  program  terminates
+
+Note:
+1) Who  understands  source  code ?  --->  Java  programmers  and  compiler
+
+2) Who  understands  bytecode ?  --->  JVM
+
+3) Who  understands  machine  code ?  ---> Processor

@@ -1,0 +1,16 @@
+ JDK(Java  Development  Kit)  Vs   JRE(Java  Runtime  Environment)
+-------------------------------------------------------------------------------
+1) What  can  JDK   do  ?  --->  It  can  compile  and  run  the  program
+    What  can  JRE  do ?  ---> It  can  only  run  the  program
+
+2) Who  should  have  JDK  ?  ---> Programmer  becoz  programmer  role is
+ 				   		      a) Design  the  program
+						      b) Compile  the  program
+						      c) Debug  the  program
+						      d) Run  the  program  to  verify  it  is  successfuly executed  (or) not
+    Who  should  have  JRE ?  ---> Client  becoz  client  role  is  execution  of  program
+    
+3) What  does  JDK  contain  ?  ---> JRE  and  developemnt  tools 
+     What  does  JRE  contain  ?  ---> JVM  and  library  classes
+
+4) Finally  JDK  contains  JRE  and  JRE  contains  JVM 

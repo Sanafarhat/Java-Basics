@@ -1,0 +1,37 @@
+Java  compiler
+----------------
+1) What  does  java  compiler  do ? --->  Translates  source  code(i.e. java  program)  to  bytecode
+
+2) Does  every  statement  have  a  bytecode ?  ---> Yes 
+
+3) Sample  bytecodes  are
+     if          -    1010  0101
+     switch  -   0101  0110
+     while    -   1101  0100
+     for        -    0111  1101
+     and  so  on
+
+4) Can  bytecodes  be  executed ?  --->  No  becoz  computer  understands  only  machine  codes  but  not  bytecodes
+
+5) Why  compiler  generates  bytecodes  when  computer  does  not  understand  them ?  --->  													
+														Since  bytecodes  are  platform  independent
+
+6) What  is  platform  independency ?  --->  Bytecodes  are  same  for  all  the  systems
+							    	     i.e. They  do  not  vary  from  system  to  system
+  
+7) What  is  a  platform ?  --->  O.S.  +  Processor 
+    
+8) Where  are  bytecodes  saved ?  ---> In  class  file
+
+9) Can  a  program  be  executed  without  compilation ?  --->  No 
+
+10) What  is  the  pre-requisite  to  run  a  program ? ---> It  needs  to  be  compiled
+
+11) Java  compiler  is  designed  in  which  language ?  --->  'C'  Language
+
+12) Therefore  java  software  is  in  the  form  of  exe  files
+
+13) Is  java  compiler  a  software  (or)  hardware ?  ---> Software
+
+14) What  is  a  software ?   --->  A  group  of  programs
+      What  is  a  hardware ?  ---> A  group  of  circuits

@@ -1,0 +1,58 @@
+JVM  (Java  Virtual  Machine)
+-----------------------------------
+1) What  does  jvm  do ?  --->  Translates  bytecodes  to  machine  codes  and  also  executes  machine  codes
+
+2) What  is  the  drawback  of  machine  codes ?  --->  They  are  platform  dependent
+                                                                                        
+3) What  is  platform  dependent ?  --->  Machine  codes  vary  from  system  to  system.
+							        i.e. They  are  not  same  for  all  the  systems.
+
+4) Does  each  system  have  a  different  jvm  ? --->  Yes
+								                     i.e.  Windows  JVM ,  Unix  JVM , Linux  JVM , Solaris  JVM  and  so  on
+
+5) What  does  windows  jvm  do ?  --->  Translates  bytecode  to  machine  code  compatible  to  windows  and  
+                                                               also  executes  those  machine  codes
+    What  does  unix  jvm  do ?  --->  Translates  bytecode  to  machine  code  compatible  to  unix  and 
+							 also  executes  those  machine  codes
+
+6) In  general,  each  jvm  translates  byte  codes  to  local  native  language (i.e.  machine  code)  and  
+     executes  the  local  language
+
+7) What  are  the  two  different  components  of  jvm  ?  --->  Java  interpreter  and   JIT(Just  In  Time)  compiler  
+
+Note:
+   				          (Byte  code)                     (Machine  code)
+      for loop  --------------->1010  0101  --------------->  1101  0111  --->  Results
+                      (Compiler)                      (Windows  JVM)
+		                                             --------------->  0100  1100 --->  Results
+						                (Unix   JVM)
+						             ---------------->  0010  0011  ----> Results
+						               (Linux   JVM)
+
+Java  Interpreter
+---------------------
+1) What  does  java  interpreter  do ?  ---> Line  by  line  translation  and  execution
+
+2) In  other  words,  each  statement  of  the  program  is  translated  and  immediately  executed
+    i.e. Translation  and  execution  are  alternate
+
+3) Can  java  interpreter  be  called  jvm  ?  ---> Yes  becoz  it  is  the  major  component  of  jvm
+
+
+JIT  compiler  (Just  In  Time  compiler)
+----------------------------------------------
+1) What  is  the  advantage  of  JIT  compiler ?  --->  Avoids  repeated  translation
+
+2) What  does  JIT  compiler  do ?  --->  Statements  of  for  loop , while  loop  and  do..while  loop  are  translated  once  
+                                                                and  only  once  but  not  again  and  again
+
+3) Therefore  loop  execution  becomes  faster
+
+4) for(int  i = 1 ; i <= 3 ; i++)
+    {
+	  statements;
+    }
+    How  many  times  are  statements  of  for  loop  translated  ?  ---> Just  once
+    How  many  times  are  they  executed ?  --->  3  times
+
+5) JIT  compiler  is  a  minor  component  of  jvm

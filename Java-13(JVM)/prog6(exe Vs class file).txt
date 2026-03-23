@@ -1,0 +1,18 @@
+exe   file   Vs    class  file
+------------------------------
+1) What  does  exe  file  contain ?  --->  Executable  code  which  is  ready  for  execution
+    What  does  class  file  contain ?  --->  Byte  code  which  is  not  ready  for  execution
+
+2) What  is  generated  when  c  (or)  c++  program  is  compiled ?  ---> exe  file
+    What  is  generated  when  java  program  is  compiled ?  ---> class  file
+    
+3) Is  exe  file  platform  dependent (or) independent ? --->  Platform  dependent  becoz  it  can  be  executed  on  same 
+												system  where  is  is  generated
+    What  about  class  file ? --->  Platform  independent  becoz  it  can  be  executed  on  any  system  provided  it  has  jvm
+
+4) Can  an  exe  file  generated  on  windows  be  executed  by  unix ?  ---> 											      											      
+										      No  becoz  executable  codes  vary  from  system  to  system
+    Can  a  class  file  generated  on  windows  be  executed  by  unix ?  --->  																								
+										      Yes  becoz  byte  codes  are  common  for  all  the  systems
+
+5) Which  file  is  highly  secured ?  ---> class  file  but  not  exe  file

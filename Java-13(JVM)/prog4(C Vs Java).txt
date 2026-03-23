@@ -1,0 +1,39 @@
+ C  and  C++   Vs   JAVA
+----------------------------
+1) What  does  c  and  c++  compiler  do ?  ---> Translates  source  code  to  machine  code  directly
+    What  does  java  compiler  do  ?  ---> Translates  source  code  to  bytecode  which  is  an  intermediate  code
+
+2) What  is  the  issue  with  c  and  c++ ?  ---> Platform  dependent  languages
+    What  is  the  power  of  java ?  ---> Platform  independent  language
+
+3) What  is   platform  dependency ?  ---> Run  the  program  on  the  same  system  where  it  is  compiled
+    What  is  platform  independency ?  ---> Compile  any  where  and  run  anywhere  else
+    
+4) Can  a  c  (or)  c++  program  compiled  on  windows  be  executed  by  a  different  system  ?  ---> 
+												No  becoz  machine  codes  vary  from  system  to  system
+    Can  a  java  program  compiled  on  windows  be  executed  by  a  different  system ?  --->  Yes  due  to  jvm
+
+5) Which  machine  can  execute  c  (or)  c++  program ?  ---> The  same  machine  where  it  was  compiled
+    Which  machine  can  execute  a  java  program ?  ---> Any  machine  but  it  should  have  JVM
+    
+6) Which  file  is  generated  when  a  c  (or)  c++  program  is  compiled ?  ---> exe  file
+     Which  file  is  generated  when  a  java  program  is  compiled ?  ---> class  file
+
+7) Can  exe  file  be  executed ?  --->  Yes  becoz  it  has  executable  codes
+    Can  class  file  be  executed ?  ---> No  becoz  it  has  bytecodes  but  not  machine  codes
+
+8) Who  executes   c  and  c++  programs ?  ---> O.S.  with  processor
+    Who  executes  java   programs ?  --->  JVM
+
+9) Are  c  and  c++  compiler  languages  (or) interpreter  languages ?  ---> Compiler  language
+    What  about  java ?  --->  Both  compiler  and  interpreter  language
+					     i.e.  javac  command  invokes  compiler  and 
+					     java  command  invokes  interpreter  which  is  a  part  of  JVM
+
+10) Are  c  and  c++  languages  (or)  platforms ?  ---> Languages  becoz  there  is  no  cvm  or  cppvm
+      What  about  java ?  ---> Both  language  and  platform
+
+11) Is  c  and  c++  program  execution (exe  file)  fast  (or)  slow ?  ---> 										
+								Fast  becoz  exe  file  can  be  executed  directly  without  any  further  translation
+     What  about  java  program (class  file) ?  ---> 
+						Slow  becoz  byte  codes  need  to  be  translated  every  time  program  is  executed
