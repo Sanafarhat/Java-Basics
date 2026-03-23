@@ -1,0 +1,26 @@
+int   x = 25   Vs  Integer  y = 25
+------------------------------------
+1) Is  'x'  a  variable  (or)  object ?  ---> Variable  becoz   int  is  a  datatype
+    Is  'y'  variable  (or)  object ?  ---> Object  becoz  Integer  is  a  class
+
+2) How  to  print  variable  'x' ?  ---> System . out . println(x)
+    What  are  the  three  ways  to  print  object  'y' ? --->  System . out . println(y . intValue())
+											     System . out . println(y . toString())
+		    									     System . out . println(y)
+
+3) How  to  determine  hashcode  of  variable  'x' ?  --->  There  is  no  hashcode  for  the  variable
+                                                                                          i.e. x . hashCode()  throws  errror
+    How  to  determine  hashcode  of  object  'y' ?  --->  y . hashCode()
+
+4) Is  x . toString()  valid ?  --->  No  becoz  method  can  not  be  called  wrt  variable
+    Is  y . toString()  valid ?  ---> Yes  becoz  method  can  be  called  wrt  object
+
+
+Note:
+1) int  x = new  Integer(65);
+    Is  the  statement  valid ?  ---> Yes  and  Integer  object  is  unboxed  to  value  25  which  is  assigned  to  variable  'x'
+
+2) Integer  y = 65;
+    Is  the  statement  valid ?  --->  Yes  and  65  is  boxed  (i.e.  converted)  to  Integer  object
+                                                       i.e.  Ref  'y'  points  to  Integer  object
+						       

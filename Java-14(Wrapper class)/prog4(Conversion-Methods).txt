@@ -1,0 +1,13 @@
+Conversion  Methods
+-----------------------
+1) parseInt()
+
+2) parseDouble()
+
+3) parseBoolean()
+
+4) parseFloat()
+
+5) parseLong()
+
+Note:  There  is  no  parseChar()  method

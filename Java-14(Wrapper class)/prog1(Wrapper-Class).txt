@@ -1,0 +1,43 @@
+Wrapper  classes
+--------------------
+1) What  is  the  wrapper  class  to  byte  datatype ?  ---> Byte
+    What  is  the  wrapper  class  to  short  datatype  ?  ---> Short
+    What  is  the  wrapper  class  to  int  datatype ?  ---> Integer
+    What  is  the  wrapper  class  to  long  datatype ?  ---> Long
+    What  is  the  wrapper  class  to  float  datatype ? ---> Float
+    What  is  the  wrapper  class  to  double  datatype ?  ---> Double
+    What  is  the  wrapper  class  to  char  datatype ?  ---> Character
+    What  is  the  wrapper  class  to  boolean  datatype ?  ---> Boolean
+
+2) In  other  words,  every  datatype  has  got   a  corresponding  wrapper  class
+
+3) Where  are  all  the  wrapper  classes  defined  ?  --->  In  java . lang  package
+
+4) What  is  Number  class ?  ---> Parent  class  to  all  wrapper  classes  except  Character  and  Boolean  classes
+
+5) Where  is  Number  class  defined ?  ---> In  java . lang  package
+
+6) Integer  i = new  Integer(25);
+    Is  new  mandatory  to  create  a  wrapper  object ?  --->   
+								No  from  java  5  and  throws  warning  from  java  9  when  new  is  used
+
+7) Integer  i = new  Integer();
+    Is  the  statement  valid ? --->  No  becoz  wrapper  has  to  be  initialized
+
+8) In  other  words,  wrapper  classes  do  not  have  no-argument  constructor  and
+      hence  they  can  not  be  left  uninitialized
+
+9) Integer  i = new  Integer(25)
+    What  is  the  hashcode  of  object  'i' ?  ---> 25
+
+10) In  other  words,  value  of  wrapper  object  is  the  hash  code
+
+11) Is  it  true  for  every  wrapper  object ?  --->  No  and  it  is  only  Integer , Character  and  Long  objects
+
+12) What  about  remaining  wrapper  objects ?  --->  hash  code  of  the  object  is  different  from  value  of  the  object
+
+13) Can  wrapper  objects  be  modified ?  --->  No  becoz  they  are  immutable
+
+14) Is  String  a  wrapper  class ?  --->  No  becoz  there  is  no  string  datatype
+
+15) In  other  words,  String  is  just  a  class  but  not  wrapper  class

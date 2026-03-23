@@ -1,0 +1,16 @@
+Naming  Convention
+-----------------------
+1) What  is  the  rule (or) convention  for  class  name ? --->  First  character  of  each  word  is  a  capital  letter
+
+2) Is  it  a  rule  (or)  convention ? --->  Rule  for  pre-defined  classes  and
+							      convention  for  user-defined  classes
+
+3) PrintWriter , PrintStream , String , Integer   and  so  on  are  pre-defined  classes
+
+4) What  is  the  rule (or)  convention  for  method  name ? --->
+								First  character  of  each  word  is  a  capital  letter  except  the  first  word
+
+5) Is  it  a  rule  (or)  convention ?  --->  Rule  for  pre-defined  methods  and
+                                                               convention  for  user-defined  methods
+
+6) parseInt() , toString()  , intValue()  and  so  on  are  pre-defined  methods
