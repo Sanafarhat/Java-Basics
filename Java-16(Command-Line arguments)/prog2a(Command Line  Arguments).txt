@@ -1,0 +1,79 @@
+Command  Line  Arguments  (or)  Parameters
+---------------------------------------------------
+1) java   classname   Input1   Input2   Input3  ....
+    What  is  the  above  line  called ?  ---> Command  line   (or)  Execution  command
+    What  are  the  inputs  called ?  ---> Command  line  inputs
+
+2) What  does  jvm  do  when  a  class  is  executed ?  --->
+					Stores  all  the  input  passed  from  command  line  in  args  array  in  the  form  of  strings
+
+3) Who  is  creating  args  array  and  when ?  --->  JVM  automatically  creates  args  array  as  soon  as  class  is  executed
+
+4) What  is  the  array  name  ?   --->  args
+    What  is  args[0] ?  ---> 1st  input  in  the  form  of  string
+    What  is  args[1] ?  ---> 2nd  input  in  the  form  of  string
+    What  is  args[2] ?  ---> 3rd  input  in  the  form  of  string
+    and  so  on
+
+5) What  is  args . length ?  ---> Number  of  inputs  passed  from  command  line
+
+6) What  are  the  indexes  of  command  line  inputs ?  ---> 0  to  args . length - 1
+
+7) What  are  the  two  ways  of  reading  inputs ?  --->  Methods  of  Scanner  class  can  read  inputs
+														 and
+										        inputs  can  also  be  read  from  command  line
+
+8) In  other  words,  command  line  inputs  are  an  alternative  to  methods  of  Scanner  class
+
+9) When  are  command  line  inputs  not  recommended ?  --->  When  there  are  too  many  inputs
+
+10) What  is  the  issue  when  there  are  too  many  inputs ?  --->  Sending  too  many  inputs  from  command  line
+													  every  time  class  is  executed  is  a  tedious  job
+
+11) When  are  command  line  inputs  recommended ?  ---> When  there  are  few  inputs
+
+12) public  static  void  main(int[]  args)
+      {
+      }
+      java   classname   10   20   15
+     Can  argument  of  main()  method  be  int[]  when  integer  inputs  are  passed  from  command  line ?  --->No
+     In  other  words,  class  can  not  be  executed  when  signature  of  main()  is  int[]
+
+13) public  static  void  main(String  args)
+      {
+      }
+      java   classname   Hyd
+      Can  argument  of  main()  method  be  String  when  sinlge  string  is  passed  from  command  line ?  ---> No
+     In  other  words,  class  can  not  be  executed  when  signature  of  main()  is  String
+
+14) Can  array  name  be  Args ?  --->  Yes  becoz  args  is  not  a  keyword
+
+Advantage
+-------------
+1) What  is  the  advantage  of  command  line  inputs ?  ---> Coding  burden  is  reduced
+
+2) In  other  words,  inputs  passed  from  command  line  are  automatically  represented  in  args  array
+     without  writing  any  code
+
+3) Therefore  programmer  job  is
+     a) Take  inputs  from  args  array,
+     b) Process  them  and
+     c) Print  results
+
+4) Do  not  worry  about  inputs   becoz  they  are  readily  available  in  args  array
+
+Disadvantage
+----------------
+1) What  is  the  dis-advantage  of  command  line  inputs ?  --->  Interaction  with  user  is  not  possible
+
+2) Program  can  interact  with  user  when  println()  and  methods  of  Scanner  class  are  used
+     Eg:   System . out . println("Enter  Employee  Number : ");
+	     int  empno = sc . nextInt();
+             System . out . println("Enter  Employee  Name : ");
+             String  ename = sc . nextLine();
+             System . out . println("Enter  Employee  Salary : ");
+             double  sal = sc . nextDouble();
+     The  above  six  statements  are  interacting  with  user  for  inputs.
+     This  is  not  possible  when  inputs  are  read  from  command  line.
+
+3) Therefore  inform  client  about  order  of  inputs
