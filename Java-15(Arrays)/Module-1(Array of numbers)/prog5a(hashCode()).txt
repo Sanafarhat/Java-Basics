@@ -1,0 +1,15 @@
+hashCode()  method
+------------------------
+1) Does   array  have  hash  code ?  --->  Yes  becoz   array  is  an  object  in  java
+
+2) How  to  determine  hash  code  of  an  array ?  ---> arrayname . hashCode()
+
+3) int[]  a = {10 , 20 ,  15 , 18}
+    What  does  a . hashCode()  do ?  --->  Returns  hash  code  of  array   'a'
+
+4) Does  hashCode()  method  return  decimal  number  (or)  hexa-decimal  number  ? --->  Decimal  hash  code
+
+5) System . out . println(array);
+     What  does  the  statement  do ? --->  Executes  toString()  method  of  array  class  becoz  array  is  an  object
+
+6) What  does  toString()  method  do  ?  --->  Returns  classname@hexa-decimal-hashcode-of-array 

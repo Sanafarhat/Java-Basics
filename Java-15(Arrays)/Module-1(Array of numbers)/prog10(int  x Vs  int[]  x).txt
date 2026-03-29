@@ -1,0 +1,10 @@
+ int   x   Vs   int[]   y
+-------------------------
+1) Is  'x'  variable (or)  reference ?  --->  Variable  becoz  there  are  no  []
+    Is  'y'  variable (or)  reference ?  --->  Reference  due  to  []
+
+2) What  is  the  type  of  'x' ? ---> int
+    What  is  the  type  of  'y' ? --->  int[]
+
+3) What  can  'x'  hold  ?  --->  Value  i.e. integer  value
+    What  can  'y'  hold  ?  --->  Hash  code  of  array  due  to  []

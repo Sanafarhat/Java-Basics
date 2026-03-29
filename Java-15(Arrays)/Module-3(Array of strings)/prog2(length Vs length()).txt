@@ -1,0 +1,17 @@
+length Vs  length()
+---------------------
+1) What  is  length  called  ?   --->  Variable  of  every  array  class
+    What  is  length()  called ?  --->  Method  of  String  class
+
+2) What  does  arrayname . length  do ?  --->  Returns  number  of  elements  in  array  i.e.  Array  size
+     What  does  string . length()  do ?  ---> Returns  number  of  characters  in  the  string  i.e.  String  length 
+
+3) int[]  a = {10 , 20 , 15 , 18};
+    String  b = "Hyd";
+    What  is  the  result  of  a . length ?  ---> 4  becoz  there  are  four  elements  in  array
+    What  is  b . length() ?  --->  Three  becoz  there  are  three  characters  in   "Hyd""
+
+4) int[]  a = new  int  [4];
+    String  b = "Hyd";
+    Is  a . length()  valid ? ---> No  becoz  there  is  no  length()  method  in  array  class
+    Is  b . length  valid ?  --->  No  becoz  there  is  no  length  variable  in  string  class

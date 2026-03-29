@@ -1,0 +1,15 @@
+2 - d   Array   Vs   Jagged  Array
+----------------------------------------
+1) What  is  a  2 - d  array ?  --->  All  the  rows  have  same  number  of  elements
+    What  is  a  jagged  array ? ---> Each  row  has  got  variable  number  of  elements
+
+2) How  many  times  is  new  operator  needed  to  create  a  2 -d  array ?  --->  Just  once
+												Eg:  int[][]  a  =  new  int  [3][4];  --->  3 X 4  matrix  is  created
+    How  many  times  is  new  needed  to  create  a  jagged  array ?  ---> Number  of  rows + 1
+											           Eg:  int[][]  a  =  new  int  [3][];   --->  Array  of  3  null's
+											                  a[0] = new int  [2];  --->  1st  row  with  2  zeroes
+											                  a[1] = new int  [3];  --->  2nd  row  with  3  zeroes
+											                  a[2] = new int  [4];  --->  3rd   row  with  4  zeroes
+
+3) What  is  a[i] . length  for  2 - d  array  ?  --->  Same  for  all  the  rows
+     What  is  a[i] . length  for  jagged  array  ?  ---> Different  for  each  row

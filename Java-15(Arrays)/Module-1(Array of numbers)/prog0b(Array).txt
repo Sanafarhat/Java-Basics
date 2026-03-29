@@ -1,0 +1,19 @@
+Array
+-------
+1) What  is  an  array ?  ---> A  group  of  elements  which  are  of  same  type
+
+2) Can  array  hold  different  types  of  elements ?  ---> No  becoz  array  is  homogeneous
+
+3) What  is  a  homogeneous  object  ?  ---> All  the  elements  of  array  should  be  of  same  type
+
+4) Is  array  an  object  ? ---> Yes  but  only  in  java
+
+5) Does  array  have  a  hashcode  ? ---> Yes  becoz  it  is  an  object
+
+6) Does  array  have  a  reference ?  --->  Yes  becoz  it  is  an  object  and  every  object  has  got  a  reference
+
+7) What  does  reference  contain ? --->  Hashcode  of  array
+
+8) Is  new  mandatory  to  create  an  array ?  --->  Yes  becoz  it  is  an  object
+
+9) What  is  []  called ?  --->  Array  operator

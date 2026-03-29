@@ -1,0 +1,28 @@
+Passing  array   to  a  method
+----------------------------------
+1) How  to  pass  an  array  to  a  method ?  --->   Just  send  the  reference
+									     i.e.  method(reference);
+
+2) In  other  words,  passing  reference  to  a  method  is  as  good  as  passing  whole  array  to  the  method
+
+3) What  does  array  support ?  --->  Both  call - by - value(CBV)   and  call  - by - reference (CBR)
+
+4) int[]  a = {10 , 20 , 15 , 18}
+    m2(a[0] , a[1] , a[2] , a[3]);
+    What  is   the  issue  ?  --->  Too  many  arguments  and  hence  CBV  is  not  recommended
+
+5) In  other  words,  do  not  send  each  element  of  array  separately  to  the  method  due  to  too  many  arguments
+
+6) What  is  the  advantage  of  call - by - refernce  --->  Single  argument  is  enough  i.e.  reference
+                                                                                           Eg:  m1(a);  --->   Reference  'a'  is  passed  to  m1()  method
+
+7) Finally  which  one  is  recommedned  for  array ?  ---> CBR
+
+8) m1(a);
+    Can  m1()  method  modify  elements  of   array  'a'  ?  --->  Yes  thru  another  reference  i.e.  b
+
+9) If  m1()  method  modifies  elements  of  array,  are  changes  visible  to  calling  method ?  --->  Yes  without  returning  array
+
+10) How  are  changes  visible  to  calling  method  without  returning  array ?  --->  
+												Since  reference  is  passed  to  the  method  and
+										                hence method  has  got  every  right  to  modify  elements  of  array

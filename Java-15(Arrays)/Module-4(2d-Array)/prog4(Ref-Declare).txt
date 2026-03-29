@@ -1,0 +1,10 @@
+int[][]   a;
+How  to  write  the  above  statement  in  six  different  ways ?
+1) int[][]    a;
+2)  int   [][]a;
+3)  int  [][]   a;
+4) int  a[][];
+5)  int[]     []a;
+6) int  []a[];
+
+All  the  above  are  same  and  reference  'a'  can  point  to  2 - d  array

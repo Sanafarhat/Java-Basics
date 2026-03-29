@@ -1,0 +1,18 @@
+Different  forms  of  []  operator
+--------------------------------------
+1) new  int  [5];
+   What  is  the  role  of  []  ?  --->  Array  operator  becoz  []  is   used  in  the  new  operator
+
+2) System . out . println(arrayname[3]);
+    What  is  the  role  of  []  ?  --->  Index  operator  becoz  []  is  used  to  access  array  element
+
+3) int[]  a;
+    What  is  the  role  of  []  ?  --->  Array  operator  becoz  int[]  a  is   a  declaration  statement
+   
+4) Finally  what  are  the  two  roles  of  []  operator ?  --->  Array  operator  and  index  operator
+
+5) int[]  a  =  new  int  [5];
+    What  is   5  called ?  ---> Array  size
+
+6) System . out . println(a[2]);
+    What  is  2  called ?  --->  Index

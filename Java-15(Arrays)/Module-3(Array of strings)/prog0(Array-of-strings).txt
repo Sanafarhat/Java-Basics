@@ -1,0 +1,43 @@
+Array  of  Strings
+----------------------
+1) How  to  create  a  string  array  with  size  4 ?  --->  String[]  a  = new  String[4]
+
+2) String[]  a  = new  String[4];
+    What  are  the  initial  values  of  array  'a' ?  --->  null's
+
+3) What  does  null  indicate ?  --->  No  object
+
+4) What  are  the  two  ways  to  initialize  a   string  array  ?  --->  
+										String[]  a = new  String[]  {"Hyd" , "Pune" , "Chennai" , "Vijayawada"};
+													and
+										String[]  a =  {"Hyd" , "Pune" , "Chennai" , "Vijayawada"};
+
+5) String[]  a =  {"Hyd" , "Pune" , "Chennai" , "Vijayawada"}
+    How  many  objects  are  created  ?  --->  5  objects 
+								      i.e.  Four  string  objects  and  one  array  object
+
+6) String[]  a =  {"Hyd" , "Pune" , "Chennai" , "Vijayawada"}
+     What is  the  name  of  the  array ?  --->  'a'
+     What  are  the  names  of  the  four  string  objects ?  ---> a[0] , a[1] , a[2]  and  a[3]
+
+7) String[]  a = new  String[3]  {"Hyd" , "Pune" , "Chennai"};
+     Is   the  statement  valid ?  --->  No  becoz  dimension  is  not  permitted  when  array  is  being  initialized
+
+8) String[]  a = "Hyd"
+     Is   the  statement  valid ?  --->  No  due  to  mismatch  in  types  i.e.  String[]  and  String
+
+9) String[]  a = {"Hyd"}
+     Is   the  statement  valid ?  --->  Yes  becoz  both  are  of  type  String[]
+
+
+Note:
+1) What  is  '\0'  called  ? --->  Null  character
+
+2) What  is  null  called ?  ---> No  object
+
+3) int[]  a  = new  int  [4];
+    char[]  b = new  char[4];
+    String[]  c = new  String[4];
+    What  are  the  initial  values  of  array  'a' ?  ---> Zeroes
+    What  are  the  initial  values  of  array  'b' ?  ---> \0's
+    What  are  the  initial  values  of  array  'c' ?  --->  null's

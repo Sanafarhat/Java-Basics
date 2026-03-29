@@ -1,0 +1,34 @@
+GregorianCalendar  class
+-----------------------------
+1) GregorianCalendar  gc = new  GregorianCalendar();
+    What  does  object  gc  contain ?  ---> Current  date , time , day  of  the  week
+
+2) Who  is  initializing  object  gc ?  --->  Constructor  of  GregorianCalendar  class
+
+3) Where  is  GregorianCalendar  class  defined  ?  ---> In  java . util  package
+
+get()  method
+----------------
+1) What  does  gc . get(GregorianCalendar . DATE)  do ?  --->  Returns  the  date  in  object  gc
+
+2) What  does  gc . get(GregorianCalendar . MONTH)  do ? --->  Returns  month  in  object  gc  in  the  range  0  to  11
+
+3) What  does  gc . get(GregorianCalendar . YEAR)  do ? --->  Returns  year  in  object  gc  i.e.  2026
+
+4) What  does  gc . get(GregorianCalendar . HOUR)  do ? --->  Returns  hours  in  object  gc  in  the  range   0  to  11
+
+5) What  does  gc . get(GregorianCalendar . MINUTE)  do ? --->  Returns  minutes  in  object  gc in  the  range  0  to  59
+
+6) What  does  gc . get(GregorianCalendar . SECOND)  do ?  --->  Returns  seconds  in  object  gc  in  the  range   0  to   59
+
+7) What  does  gc . get(GregorianCalendar . DAY_OF_WEEK)  do ? --->
+											 Returns  day  of  the  week  in  object  gc  in  the  range  1  to  7
+	                                                                                 where  1 - Sunday , 2 - Monday ,  ....... 6 - Friday   , 7 - Saturday
+
+8) In  general,  what  does  get()  method  do ?  --->  It  is  used  to  retrieve  date , month , year , hours ,
+							                           minutes , seconds , day  of  week  from  object  gc  based  on  argument
+
+9) Where  is  get()  method  defined ?  --->  In  GregorianCalendar  class
+
+10) What  are  DATE , MONTH , YEAR , HOUR , MINUTE , SECOND , DAY_OF_WEEK  called ?  --->
+														final  static  variables  of  GregorianCalendar  class

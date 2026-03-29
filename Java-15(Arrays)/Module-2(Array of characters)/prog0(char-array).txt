@@ -1,0 +1,37 @@
+Array  of  characters
+--------------------------
+1) How  to  create  a  char  array  with  size  4 ?  ---> char[]  a  = new  char[4]
+
+2) char[]  a  = new  char[4]
+    What  are  the  initial  values  of  char  array ?  --->  Four  \0's
+
+3) What  is  the  unicode  value  of  '\0' ?  ---> 0
+
+4) What  are  the  two  ways  to  initialize  char  array  with  'H' , 'y'  and  'd'  ?  --->  
+															a) char[]  a = new  char[]  {'H' , 'y' , 'd'}
+															b) char[]  a =  {'H' , 'y' , 'd'}
+
+5) char[]  a = new  char[5] {'I' , 'n' , 'd' , 'i' , 'a'};
+     Is   the  statement  valid ?  --->  No  becoz  dimension  is  not  permitted  when  array  is  being  initialized
+
+6) char[]  a = "Hyd";
+     Is   the  statement  valid ?  --->  No  due  to  mismatch  in  types  i.e.  char[]  and  String
+
+7) char[]  a  =  {'H' , 'y' , 'd'};
+     System . out .  println(a);
+     What  is  printed ?  --->  String  in   char  array  i.e.  "Hyd"
+
+8) System . out . println(char-array);
+     Which  method  is  executed ?  --->  println(char[])  method  of  PrintStream  class
+     
+9) What  does  println(char[])  method  do ?  --->  Concatenates  all  the  characters  of  array  to  form  a  string  and  prints  string
+
+10) System . out . println(int-array);
+      What  is  printed ? --->  classname@hexa-decimal-hashcode-of-array 
+
+11) System . out . println(int-array);
+     Which  method  is  executed ?  --->  toString()  method
+
+12) How  to  print  elements  of  int  array ?  --->  With  for  loop
+
+13) Is  for  loop  needed  to  print  character  array  --->  No

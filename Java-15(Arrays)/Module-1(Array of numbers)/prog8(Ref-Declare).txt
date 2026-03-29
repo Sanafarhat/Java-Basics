@@ -1,0 +1,31 @@
+Reference  Declaration
+----------------------------
+Which  of  the  following  are  valid ?
+1) int[]   a  --->  Valid  becoz  []  can  be  used  along  with  datatype  int
+
+2) int    []a  --->  Valid  becoz  []  can  be  used  along  with  reference  'a'
+
+3) int   []   a  --->  Valid  becoz  []  can  be  used  in  the  middle
+
+4) int   a[] --->  Valid  becoz  []  can  be  used  after  reference  'a'
+
+5) int[]   a;
+    int   []a;
+    int  []   a;
+    int  a[];
+    Are  the  four  statements  same ?  --->  Yes  and  all  of  them  create  reference  but  not  array
+
+6) []int  a  --->  Invalid  becoz  []  can  not  be  used  before  datatype  int
+
+7) int[5]   a  --->  Invalid  becoz  dimension  is  not  permited  as  refernce  is  being  created  but  not  array
+
+8) int   a[5]  --->  Invalid  becoz  dimension  is  not  permited  as  refernce  is  being  created  but  not  array
+
+9) int[]  a;
+    a = new int [5]  --->   Valid
+	
+10) When  is  dimension  mandatory  ?  --->  When  array  is  being  created  but  not  for  reference
+
+11) int   a  = new  int  [5];
+     Is  the  statement  valid ?  ---> No  due  to  mismtach  in  types   i.e. int  and   int[]
+				

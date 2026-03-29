@@ -1,0 +1,13 @@
+Types  of  Arrays
+---------------------
+1) Array  of  numbers
+
+2) Array  of  characters
+
+3) Array  of  strings
+
+4) 2-dimesional  array
+
+5) Jagged  array  i.e. Array  of  arrays
+
+6) Array  of  objects

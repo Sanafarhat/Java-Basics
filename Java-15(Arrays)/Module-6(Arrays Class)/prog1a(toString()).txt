@@ -1,0 +1,18 @@
+toString()  method
+----------------------
+1) What  does  toString()  method  do ?  --->  Converts  array  to  string  array 
+								        i.e.  "[Element1 , Element2 , Element3 , ...]"
+
+2) int[]  a = new  int  {10 , 20 , 15 , 18};
+    What  does  toString(a)  do ?  --->   Converts   array  'a'  to  "[10 , 20 , 15 , 18]"
+
+3) Observe  that  toString()  method  returns  [ ]   but  not  { }
+
+4) Arrays . toString(a));
+    Why  is  it  called  thru  class  name  Arrays ?  --->  Since  it  is  a  static  method  of  Arrays  class
+
+5) int[]  a = new  int  {10 , 20 , 15 , 18};
+    System . out . println(a)
+    Which  class  toString()  method  is  executed ?  --->  toString()  method  of  Object  class
+    What  does  it return ?  ---> classname@hexa-decimal-hashcode-of-array
+                                                  i.e.  [I@hashcode

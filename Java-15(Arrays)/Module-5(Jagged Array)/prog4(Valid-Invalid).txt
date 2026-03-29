@@ -1,0 +1,16 @@
+Which  of  the  following  are  valid  ?
+1) int[][]   a = new  int  [][4] --->  Error :  First  dimension  is  missing
+
+2) int[][]   b = new  int  [3][]  ---> Valid  :  Second  dimension  is  optional
+
+3) int[][]   c = new  int  [3][4] --->  Valid
+
+4) int[][]   d = new  int  [][] --->  Error :  First  dimension  is  missing
+
+5) int[][]  e = new  int[][]  {{10 , 20} , {30 , 40 , 50} , {60 , 70 , 80 , 90}}  --->  Valid  : Dimensions  should  not  be  specified
+
+6) int[][]  f = new  int[2][3]  {{10 , 20} , {30 , 40 , 50} , {60 , 70 , 80 , 90}}  ---> Error  due  to  dimensions  2  and  3
+
+7) int[][]  g = {{10 , 20} , {30 , 40 , 50} , {60 , 70 , 80 , 90}}  ---> Valid  :  new  is  optional  when  array  is  being  initialized
+
+8) int[][]  h = {10 , 20 , 30 , 40 , 50, 60 , 70 , 80 , 90}  --->  Error  due  to  mismatch  of  types i.e.  int[][]  and  int[]

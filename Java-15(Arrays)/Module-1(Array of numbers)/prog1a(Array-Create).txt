@@ -1,0 +1,39 @@
+Array  creation
+-------------------
+1) int[]  a  = new  int  [5];
+   What  does  new  int [5]  do ?  ---> Creates  an  integer  array  with  size  5
+   Can  array  'a'  hold  double  elements ?  ---> No  becoz  it  is  an  int  array
+   Can  array  'a'  hold  7  elements ?  ---> No  becoz  array  size  is  5
+   What  are  the  initial  values  of  array  'a'  ?  ---> Five  zeroes
+   What  are  the  indexes  of  array  'a' ? ---> 0  to  4  becoz  array  size  is  5
+
+2) int[]   a;
+    Is   'a'  variable  (or)  reference ? ---> Reference  due  to  []
+    What  is  the  type  of  reference  'a'  ?  --->  int[]
+
+3) Why  is  new  operator  used  to  create  an  array ?  --->  	Since  array  is  an  object  and  hence  new  is   
+												needed  to  create  an  object
+
+4) Does  array  have  hashcode ?  ---> Yes  becoz  array  is  an  object
+
+5) int[]  a = new  int [5];
+    What  does  reference  'a'  contain ?  ---> Hashcode  of  array
+    Where  does  reference  'a'  point  to  ?  ---> Array
+    What  is  the  array  name ?  --->  'a'   becoz   reference  name  is  nothing  but  array  name
+
+6) How  to  access  elements  of  array  'a'  ?  --->  a[0] , a[1] , a[2]  , a[3]  and  a[4]
+                                                                                and  in  general  a[i]  where  'i'  varies  from  0  to  4
+
+7) How  to  create  a  double  array  with  size  7 ?  --->  double[]   b = new  double  [7]
+    What  are  the  initial  values  of  array  'b' ?  ---> Seven  0.0's
+
+8) double[]  a  = new  int [5];
+    Is  the  statement  valid ?  ---> No  due  to  mismatch  i.e.  double[]  and  int[]
+
+9) int[]  a  = new  int  [];
+    Is  the  statement  valid ?  ---> No  becoz  dimension  is  missing  on  right  side
+
+10) In  other  words,  array  can  not  be  created  without  dimension
+
+11) int[5]  a  = new  int  [5];
+     Is  the  statement  valid ?  ---> No  becoz  dimension  is  not  permitted  on  left  side  as  'a'  is  reference 

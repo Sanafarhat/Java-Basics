@@ -1,0 +1,13 @@
+Returning  an  array
+------------------------
+1) How  to  return  an  array ?  --->  Just  return  the  reference  of   array
+
+2) int[]   a = {10 , 20 , 15 , 18};
+    How  to  return  array  'a' ?  --->  return   a
+
+3) In  other  words,  returning  reference  is  as  good  as  returning  the  whole  array
+
+4) What  is  the  return  type  when  method  returns  array ?  --->  int[]
+
+5) What  is  the  advantage  of  returning  array ?  --->  Calling  method  can  access  array  of  called  method
+                                                                                        indirectly  thru  reference

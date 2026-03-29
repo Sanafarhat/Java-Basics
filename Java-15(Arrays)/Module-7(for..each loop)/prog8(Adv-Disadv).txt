@@ -1,0 +1,18 @@
+for  ...  each  loop
+---------------------
+1) What  is  the  advantage  of  for  ...  each  loop ?  --->  Simple  in  syntax  and  easy  to  understand
+
+2) What  are  the  six  dis-advantages  of  for  ...  each  loop ?  --->
+     a) It  can  not  track  indexes  like  regular  for  loop
+     b) It  can  not  iterate  thru  array , collection  and  enum  in  reverse  order
+     c) It  can  not  print  even  numbers , odd  numbers , natural  numbers ,  fibonacci  series  and   so  on
+     d) It  can  iterate  thru  one  array  at  a  time  but  not  multiple  arrays  simultaneously
+     e) It  can  not  iterate  thru  a  part  of  the  array
+     f) It  can  not  modify  array
+
+3) Which  is  a  better  for  loop ? --->  Regular for  loop  is  more  powerful  when  compared  to  for ... each  loop
+
+Note:
+1) 1st  choice  --->  for  ...  each  loop
+
+2) 2nd  choice  ---> Regular  for  loop

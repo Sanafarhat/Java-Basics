@@ -1,0 +1,10 @@
+fill()  method
+---------------
+1) What  does  fill()  method  do ?  --->  Modifies  elements  of  array  with  a  different  value
+
+2) What  are  the  four  arguments  of  fill()  method ?  ---> Array , start  index(inclusive) , end  index(exclusive)  and  new  element
+
+3) Arrays . fill(arrayname , x , y , z)
+    What  does  fill()  method  do ?  --->  Modifies  elements  of  array  from  indexes  x  to  y -  1  with  z
+
+4) Why  is  fill()  method  called  thru  class  name  Arrays ?  --->  Since  it  is  a  static  method  of  Arrays  class

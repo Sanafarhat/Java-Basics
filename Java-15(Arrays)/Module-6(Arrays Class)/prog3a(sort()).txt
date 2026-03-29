@@ -1,0 +1,10 @@
+sort()  method
+-----------------
+1) What  does  sort()  method  do ?  ---> Sorts  elements  of  array  in  ascending  order
+
+2) In  other  words,  unsorted  elements  of  array  are  replaced  with  sorted  elements
+
+3) What  is  the  argument  of  sort()  method ?  ---> Array  to  be   sorted
+
+4) Arrays . sort(arrayname);
+    Why  is  sort()  method  called  thru  class  name  Arrays ?  ---> Since  it  is  a  static  method  of  Arrays  class

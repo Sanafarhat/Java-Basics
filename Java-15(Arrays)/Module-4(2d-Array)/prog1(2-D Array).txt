@@ -1,0 +1,58 @@
+2 - Dimensional  Array
+---------------------------
+1) What  is  a  2 - d  array ?  --->  A  group  of  1 - d  arrays  where  each  1 - d  array  is  a  row  of  2 - d  array
+
+2) int[][]   a = new  int [3][4]
+    What  does  the  statement  do ?  --->  Creates  a  2 - d  array  of  size 3 X 4
+    What  is  the  name  of  array ?  ---> 'a'
+    How  many  rows ? --->  3  rows
+    How  many  elements  are  in  each  row ?  ---> Four
+    What  is  the  type  of  each  element ?  ---> int
+    What  are  the  initial  values  of  each  row ? ---> 4  zeroes
+
+3) int[][]  a = new  int[3][4];
+    How  many  objects  are  created ?  --->  Four  objects  i.e. One  array  and  three  rows
+
+4) What  does  array  contain  ?  --->  References  where  each  ref  points  to  a  row
+
+5) Where  does  reference  'a'  point  to  ?  --->  Array  of  references
+
+6) What  are  the  names  of  rows ?  ---> a[0] , a[1]  , a[2]
+
+7) What  is  a[0] . length ?  ---> 4
+    What  is  a[1] . length ?  ---> 4
+    What  is  a[2] . length ?  ---> 4
+    What  is  a . length ?  ---> 3
+
+8) int[]   a  = new  int  [3][4];
+    Is  the  statement  valid ?  --->  No  due  to  mismatch  of  types  i.e.  int[]  and  int[][]
+    
+9) int[]   a  = new  int  [3][4];
+    In  other  words,  ref  'a'  can  point  to  1-d  array  but  not  to  2 - d   array
+
+10) int[][]  a  = new  int  [3];
+     Is  the  statement  valid ?  --->  No  due  to  mismatch  of  types  i.e.  int[][]  and  int[]
+
+11) int[][]  a  = new  int  [3];
+     In  other  words,  ref  'a'  can  point  to  2-d  array  but  not  to  1-d  array
+
+12) int[][]  a  =  new  int  [][]  {{10 , 20 , 30 , 40} , {50 , 60 , 70 , 80} , {90 , 100 , 110 , 120}};
+     What  does  the  statement  do ?  ---> Initializes  2 - d  array  with  12  elements
+     What  are  the  elements  of  1st  row ?  ---> {10 , 20 , 30 , 40}
+     What  are  the  elements  of  2nd  row ?  ---> {50 , 60 , 70 , 80}
+     What  are  the  elements  of  3rd  row ?  ---> {90 , 100 , 110 , 120}
+     How  many  objects  are  created  in  total ?  --->  Four  i.e. One  array  and  three  rows
+
+13) int[][]  a  =  new  int  [3][4]  {{10 , 20 , 30 , 40} , {50 , 60 , 70 , 80} , {90 , 100 , 110 , 120}};
+      Is  the  statement  valid ?  --->  No  becoz  dimensions  are  not  permitted  when  array  is  being  initialized
+
+14) int[][]  a  =  {{10 , 20 , 30 , 40} , {50 , 60 , 70 , 80} , {90 , 100 , 110 , 120}};
+      Is  the  statement  valid ?  --->  Yes  becoz  new  is  optional  when  array  is  being  initialized
+
+15) int[][]  a  =  {10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 , 100 , 110 , 120};
+      Is  the  statement  valid ?  --->  No  due  to  mismatch  of  types  i.e.  int[][]  and  int[]
+
+16) int[][]  a  = new  int  [][];
+      Is  the  statement  valid ?  --->  No  becoz  dimensions  are  missing
+      
+17) In  other  words,  dimensions  are  mandatory  when  array  is  not  initialized

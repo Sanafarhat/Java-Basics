@@ -1,0 +1,11 @@
+Methods  of  Arrays  class
+-------------------------------
+1) toString()
+
+2) fill()
+
+3) sort()
+
+4) binarySearch()
+
+Where  is  Arrays  class  defined  ?  --->  In  java . util  package

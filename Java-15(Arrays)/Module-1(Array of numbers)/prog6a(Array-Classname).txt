@@ -1,0 +1,20 @@
+class  name  of  array
+--------------------------
+1) Is  array  an  object ?   --->  Yes  but  only  in  java
+
+2) What  is  the  class  name  of  byte  array ?  --->  [B
+     What  is  the  class  name  of  short  array ?  ---> [S
+     What  is  the  class  name  of  int  array ?  ---> [I
+     What  is  the  class  name  of  long  array ?  ---> [L
+     What  is  the  class  name  of  float  array ?  ---> [F
+     What  is  the  class  name  of  double  array ?  ---> [D
+     What  is  the  class  name  of  char  array ?  ---> [C
+     What  is  the  class  name  of  boolean  array ?  ---> [Z  but  not  [B
+     What  is  the  class  name  of  String  array ?  --->  [Ljava . lang . String;
+     What  is  the  class  name  of  integer  2-d  array ?  --->  [[I
+     What  is  the  class  name  of  double  2-d  array ?  ---> [[D
+     What  is  the  class  name  of  character  2-d  array ?  ---> [[C
+
+3) How  to  obtain  class  name  of  an  array ?  ---> Arrayname . getClass() . getName()
+
+4) Does  [I  class  exist ?  --->  No  and  it  is  only  jvm  generated  classname 

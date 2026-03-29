@@ -1,0 +1,24 @@
+length  variable
+------------------
+1) int[]  a = {10 , 20 , 15 , 18}
+    What  does  a . length  do  ?  ---> Returns  number  of  elements  in  array  i.e. 4
+
+2) What  is  the  syntax  of  length  variable ?  --->  arrayname . length
+
+3) Who  is  initializing  length  variable  and  when ?  --->  JVM  initializes  length  variable  as  soon  as  array  is  created
+
+4) Is  a . length()  valid ?  --->  No  becoz  length()  is  not  a  method  but  variable
+
+5) Is  a . length++  valid  ?  --->  No  becoz  length  is  a  final  variable  which  can  not  be  modified
+
+6) What  is  the  starting  index  of  array  ?  --->  0
+     What  is  the  last  index  of  array ?  ---> Arrayname . length  -   1
+
+7) int[]  a = new  int  [a . length];
+    Is  the  statement  valid ?  --->  No  becoz  ref  'a'  is  being  used  without  creation  of  'a'
+
+8) Is  arrayname . len  valid ?  ---> No  becoz  there  is  no  len  variable  in  array  class
+
+9) int[]  a = {10 , 20 , 15 , 18};
+    a . length  = 6;
+    Is  the  statement  valid ?  --->   No  becoz  length  is  a  final  variable  which  can  not  be  modified

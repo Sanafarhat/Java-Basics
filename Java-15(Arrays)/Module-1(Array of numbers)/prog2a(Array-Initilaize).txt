@@ -1,0 +1,36 @@
+Array  Initialization
+------------------------
+1) int[]  a  = new  int  [] {10 , 20 , 15 , 18};
+    What  does  the  statement  do ?  ---> Creates  an  array  with  four  elements  i.e.  10 , 20 , 15  and  18
+
+2) What  is  the  name  of  array ?  --->  'a'  becoz  reference  name  is  nothing  but  array  name
+
+3) How  to  access  elements  of  array  'a'  ?  --->  a[0] , a[1] , a[2] , a[3]
+
+4) Is  a[4]  valid ?  --->  No  becoz  index  4  does  not  exist  as  there  are  only  four  elements  in  array
+
+5) int[]  a = new  int [4] { 10 , 20 , 15 , 18};
+    Is  the  statement  valid ?  ---> No  becoz  dimension  is  not  permitted  when  array  is  being  initialized
+
+6) When  is  dimension  mandatory ?  ---> When  array  is  not  being  initialized
+    
+7) int[]  a = {10 , 20 , 15 , 18};
+    Is  the  statement  valid ?  --->  Yes  becoz  new  is  optional  when  array  is  being  initilaized
+
+8) In  other  words,  the  following  two   statements  are  same
+    int[]  a = new  int  []  {10 , 20 , 15 , 18}
+			and
+    int[]  a =  {10 , 20 , 15 , 18}
+
+9) When  is  new  mandatory ?  --->  When  array  is  not  initilaized
+							 Eg:  int[]   a  = new  int [4]
+     When  is  new  optional ?  --->  When  array  is  being  initilaized
+						      Eg:  int[]  a  = {10 , 20 , 15 , 18}
+
+10) int[]  a;
+      a  = {10 , 20 , 15 , 18};
+      Is  the  statement  valid ?  ---> No  becoz  new  is  mandatory  when  array  is  initilaized  later
+
+11) int[]   a;
+      a = new  int  []  {10 , 20 , 15 , 18};
+      Is  new  mandatory ?  --->  Yes  becoz  array  is  being  initilaized  later

@@ -1,0 +1,29 @@
+Observe  the  following
+----------------------------
+1) int[]   a , b , c;
+   What  are  a , b , c   called ?  --->  References to  1 - d  array  becoz  []  is   applicable  to   a , b  and  c
+
+2) int[]   []a , b , c;
+    Where  can   a , b , c  point  to  ?  --->  2 - d  array  becoz  both  the  []  are  applicable  to   a , b ,  c
+
+3) int[]   a[] , b , c;
+    Where  can   a ,  b , c  point  to  ?  --->  'a'  can  point  to  2-d  array  but  b  and  c  can  point  to   1 - d  array.
+                                                                   i.e.  1st  []  is  for  a , b , c  and  2nd  []  is  only  for  'a'
+
+4) int[]   a[] , b[] , c[];
+    Where  can   a , b , c  point  to  ?  --->  2-d  array
+
+5) int[]   []a[] , b[] , c[];
+    Where  can   a , b , c  point  to  ?  --->  3-d  array
+
+6) int[]   []a , []b , []c;
+    Is  the  statement  valid ? ---> No  becoz  []  are  not  permitted  before  b  and  c  as  they  are  subsequent  references
+
+7) In  general,  [ ]  is  valid  either  before  the  reference  or  after  the  reference  for  the  1st  reference
+    but  [ ]  is  valid  only  after  the  reference  for  the  remaining  references
+
+8) int[]   []a , b[] , c[];
+    Where  can   a , b , c  point  to  ?  --->  'a'  can  point  to  2 - d  array  but   b  and  c  can  point  to  3 - d  array's
+
+9) int   a[] , b , c;
+    What  are  a , b , c  called  ?  --->  'a'  is  reference  to  1-d  array  but  b  and  c  are  variables
