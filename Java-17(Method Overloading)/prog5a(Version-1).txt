@@ -1,0 +1,16 @@
+StringBuffer  class
+-----------------------
+1) StringBuffer  sb = new  StringBuffer("Hyd")
+   What  is  the  similarity  between  String  and  StringBuffer  objects ?  --->  Both  of  them  can  hold  string
+
+2) Are  String  and  StringBuffer  independent  classes ?  --->  Yes  and  there  is  no  relation  between  them
+
+3) Where  are  String  and  StringBuffer  classes  defined  ? --->  In  java . lang  package
+
+4) StringBuffer  sb  = "Hyd";
+     Is  the  statement  valid ?  ---> No  becoz  StringBuffer  class  reference  can  not  point  to  String  object
+
+5) String  s  = new  StringBuffer("Sec");
+    Is  the  statement  valid ?  ---> No  becoz  String  class  reference  can  not  point  to  StringBuffer  object
+
+6) In  general,  a  class   reference  can  not  point  to  different  class  object

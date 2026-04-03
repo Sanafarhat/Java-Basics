@@ -1,0 +1,21 @@
+Object  class
+---------------
+1) What  is  special  about  Object  class ? --->  Parent  class  to  all  java  classes
+									   i.e. user  defined  and  pre-defined  classes
+
+2) Where  is  Object  class  defined ?  --->  In  java . lang  package
+
+3) Object  o = "Hyd";
+    Is  the  statement  valid ?  ---> Yes  becoz  parent  class  reference  can  point  to  any  child  class  object
+
+4) String  s  =  new  Object();
+    Is  the  statement  valid ?  ---> No  becoz  child  class  reference  can  not  point  to  parent  class  object
+
+5) Object  o = null;
+    Where  does  reference  'o'  point  to ?  ---> No  object
+
+6) String  s = "null"
+    Where  does  reference  's'  point  to  ?  ---> String  object  "null"
+
+7) String  s = null;
+    Where  does  reference  's'  point  to  ? ---> No  object

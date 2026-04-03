@@ -1,0 +1,30 @@
+Pointer  Vs   Reference
+----------------------------
+1) What  does  a  pointer  contain ?  --->  Address  of  variable, array, structure  and  so  on
+    What  does  a  reference  contain ?  ---> Hash  code  of  the  obejct
+
+2) How  to  declare  a  pointer ?  --->  With  *  operator
+                                                            i.e.  int*  p;
+   How  to  declare  a  reference ?  --->  With  classname
+							        i.e. String   s;
+
+3) Where  can  a  pointer  point  to ?  --->  Variable , array ,  structure , function , file  and  so  on
+    Where  can  a  reference  point  to ?  ---> Any  java  object  but  not  to  variable
+
+4) Are  ptr - ptr , ptr++ , ptr--  valid ?  --->  Yes  becoz  pointer  arithmetic  is  permitted
+    Are  ref - ref , ref++ , ref--  valid ?  ---> No  becoz  reference  arithmetic  is  not  permitted
+
+5) Which  language  supports  pointers ?  --->  'C'  and  C++  but  not  Java
+    Which  language  supports  references  ?  ---> Java  and  Python
+
+6) Why  java  does  not  support  pointers ?  --->  Due  to  security  reason
+
+7) Hash  code  is  fully  secured
+     i.e. hash  function  is  designed  such  that  it  does  not  have  inverse
+
+8) In  other  words,  h(address)  returns  hash  code  but
+     h-inverse(hashcode)  can  not  return  address  as  h-inverse  does  not  exist
+
+9) Pointers  directly  point  to  memory  location  and  hence  no  security
+
+10) Reference  can  not  point  to  variable ,  method , file  and  so  on  becoz  they  do  not  have  hash  code

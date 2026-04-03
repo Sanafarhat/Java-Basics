@@ -1,0 +1,27 @@
+null
+-----
+1) What  is  null ?  --->  No  object
+
+2) In  other  words,  null  is  a  literal  (or)  constant  like  25 , 10.8 , 'g'  and  true
+
+3) Is  Null  valid ?  --->  No  becoz  null  is  a  keyword  and  hence  it  should  be  in  lowercase
+
+4) What  is  the  type  of  null ?  --->  Every  classname
+							   i.e. String , StringBuffer ,  Integer , int[]  ,  Object  and  so  on
+
+5) String  s = null;
+    Integer  i = null;
+    StringBuffer   sb = null;
+    int[]  a = null;
+    All  the  above  statements  are  valid
+
+6) int  x = null;
+    Is  the  statemet  valid ?  --->  No  becoz  null  can  be  assigned  to  reference  but  not  to  a  variable
+                                                     and  also  it  is  mis-match
+
+7) String  s = null;
+    Where  does  reference  's'  point  to ?  ---> No  object
+
+8) Can  operations  be  made  on  null ?  --->  No  becoz  null  means  no  object
+
+9) What  happens  when  operation  is  made  on  null  ?  --->  Throws  NullPointerException

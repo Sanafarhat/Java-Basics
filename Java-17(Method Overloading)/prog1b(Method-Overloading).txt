@@ -1,0 +1,60 @@
+Method  overloading
+-----------------------
+1) What  is  method  overloading ?  --->  Same  method  does  different  operations
+
+2) In  other  words,  adding  a  new  feature  to  same  method   is  known  as  method  overloading
+
+3) What  does  add(10 , 20)  do ?  --->  Returns  sum  of  two  numbers  i.e.  30
+    What  does  add("10" , "20")  do ?  ---> Returns  join  of  two  strings  i.e.  "1020"
+
+4) What  is  the  key  to  execute  overloaded  methods  ?  --->  
+										Type  of  argument  plays  a  key  role  in  execution  of  the  method
+
+5) What  does  add()  method  do  when  numbers  are  passed  to  the  method ?  --->  Returns  sum  of  two  numbers
+     What  does  add()  method  do  when  strings  are  passed  to  the  method ?  ---> Returns  join  of  two  strings
+
+6) Same  add()  method  does  either  sum  operation  (or)  join  operation  based  on  arguments
+
+7) Adding  another  functionality  to  same  method  is  known  as  method  overloading
+
+8) class  c1
+    {
+        void   m1(int  x)
+	{
+	}
+   }
+   class  c2
+   {
+       void  m1(double  x)
+       {
+       }
+   }
+   Is  m1()  method  overloaded ? ---> No  becoz  it  is  in  two  different  classes
+
+9) In  other  words,  overloaded  methods  should  be  in  the  same  class
+
+10) Method  overloading  is  nothing  but  code  refinement
+
+11) Method  overloading  is  also  called  static  polymorphism  (or) compile  time  polymorphism
+
+12) What  is  polymorphism ?  --->   Many  forms  i.e. same  method  has  got  different  forms
+
+13) add()  method  has  got  6  different  forms
+      i.e.  add(int , int) , add(int , int , int) , add(double , double) , add(String , String) , add(float , float) , add(char , char)
+
+14) What  is  the  advantage  of  method  overloading ? --->  Method  calls  becomes  simple  and  readable
+											       i.e.  Program  readability  increases
+
+15) Can  main()  method  be  overloaded ?  --->  Yes
+
+16) What  is  the  1st  rule  of  method  overloading ?  --->  Two  (or)  more  methods  can  have  same  name
+      What  is  the  2nd  rule  of  method  overloading ?  ---> Signatures  of  methods  should  be  different
+
+17) In  other  words,  methods  can  have  same  name  with  different  signatures
+
+18) What  is  a  signature  ?  ---> Types  of  arguments
+
+19) What  happens  when  two  methods  have  got  same  name  and  signature ?  --->
+													Ambiguity  error  and  program  won't  be  compiled
+
+20) Therefore  types  of  arguments  should  be  different  between  the  methods
