@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public  static  void  m1(int...   a)
+{
+}
+
+Which  of  the  following  are  valid  when  ...  is  replaced  with  []   in  the  above  m1()  method ?
+1) m1(10 , 20 , 15 , 18)  --->  
+
+
+Invalid  becoz  method  is  expecting  array  but  not  values
+
+2) m1(25)  --->  
+
+
+Invalid  becoz  method  is  expecting  array  but  25  is  not  an  array
+    
+3) m1()  --->  
+
+
+Invalid  due  to  zero  arguments
+	
+4) m1(new int [] {100 , 200 , 150})  --->  
+
+
+Valid  becoz  array  is  passed  to  the  method
+
+5) What  is  the  issue  when  ...  is  replaced  with  [] ?  --->  
+
+
+Only  array  can  be  passed  to  the  method
+
+6) Therefore  replacing  ...   with  []  is  not  a  good  idea   becoz  method  is  weakened

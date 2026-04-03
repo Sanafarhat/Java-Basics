@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Which   of  the  following  are  valid ?
+1) void  m1(int...    a)  {  }  ---> 
+
+
+Valid
+    
+2) void  m2(int   ...a) { }  --->  
+
+
+Valid
+    
+3) void  m3(int   ...   a) { }  ---> 
+
+
+Valid
+
+4) void   m4(int.        ..a)  { }   --->  
+
+
+Error  becoz  ...  can  not  be  divided  and  it  should  be  used  together  
+
+5) void   m5(int    a...)  { }  --->  
+
+
+Error  becoz  ...  can  not  be  used  after  argument  name  (unlike  [])
+
+6) void   m6(int.     .      .a)  { }  --->  
+
+
+Error  becoz  ...  can  not  be  divided  and  it  should  be  used  together  
+
+7) int...  m7()  { }  --->  
+
+
+Error  becoz  ...  can  not  be  in  the  return  type 
+
+8) void  m8()
+    {
+	int  ...  x;    ---> 
+    }
+
+
+
+  Error  becoz  ...  can  not  be  in  the  local  variable  declaration
+9) Finally  where  can  ...   be  used ?   --->  
+
+
+In  the  formal  parameter  declaration  only  
+    Where  can  []  be  used ?  --->  
+    
+    
+    Any  where  i.e.  Parameter  type , return  type  and  local  declaration

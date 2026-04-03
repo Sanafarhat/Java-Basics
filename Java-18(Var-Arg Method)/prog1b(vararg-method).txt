@@ -1,0 +1,95 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Method  with  variable  number  of  arguments  (or) Var-Arg  Method  
+-------------------------------------------------------------------------------
+1) What  is  a  var-arg  method  ?  --->  
+
+
+A  method  with  variable  number  of  arguments
+
+2) In  other  words,  any  number  of  arguments  can  be  passed  to  the  method
+     Eg: m1(Arg1 , Arg2 , Arg3 , ......)
+
+3) What  is  the  operator  to  define  a  var-arg  method ?  --->  
+
+
+...  operator
+
+4) void  m1(int...  a)
+    {
+    }
+    Is  m1  a  var-arg  method ?  --->  
+    
+    
+    Yes  due  to  ...  in  the  method  header
+    What  is  'a'  called  ?  --->  
+    
+    
+    Var-arg  parameter  due  to  ...
+    Is  'a'  variable  (or)  reference ?  ---> 
+    
+    
+    Reference  due  to  ...
+    Where  does  reference  'a'  point  to ?  --->  
+    
+    
+    Array  of  arguments  passed  to  the  method
+
+5) What  does  jvm  do  when  a  var-arg  method  is  called ?  ---> 
+
+
+Arguments  passed  to  the  method  are  stored  
+												        in  an  array  and  array  is  passed  to  the  method
+
+6) m1(10 , 20 , 15 , 18);
+    What  is  passed  to  m1()  method  ?  --->  
+    
+    
+    Array  of  four  elements  i.e.  [10 , 20 , 15 , 18]
+
+7) Why  are  arguments  not  passed  to  the  method ?  --->  
+
+
+Due  to  ...  in  the  method  header
+
+8) m1(No  args);
+    What  is  passed  to  m1()  method  ? --->  
+    
+    
+    Array  of  zero  elements  i.e.  []
+	   
+9) Which  of  the  following  are  valid ?
+     a) void  m1(int...  a , int   b)  { } ---> 
+
+
+Error  becoz  var-arg  parameter  can  not  be  the  first  parameter
+
+    b) void  m2(int  a , int ... b , int  c)  { }  ---> 
+
+
+Error  becoz  var-arg  parameter  can  not  be  the  middle  parameter
+
+   c) void   m3(int...  a , int...  b)  { }  --->  
+
+
+Error due  to  multiple  var-arg  parameters  
+
+   d) void  m4(int   a  ,  int...    b)  { }  ---> 
+
+
+Valid  becoz  Var-arg  parameter  is  the  last  parameter

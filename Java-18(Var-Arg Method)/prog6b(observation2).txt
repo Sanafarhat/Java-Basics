@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public  static  void  m1(int[]  a)  
+{
+}
+
+Which  of  the  following  are  valid  when  []  is  replaced  with  ...  in  the  above  m1()  method ?
+1) m1(10 , 20 , 15 , 18) --->  
+
+
+Valid  and  array  of  four  elements  is  passed  to  m1()  method
+
+2) m1(25) --->  
+
+
+Valid  and  array  of  single  element  is  passed  to  m1()  method
+
+3) m1()  --->  
+
+
+Valid  and  array  of  zero  elements  is  passed  to  m1  method
+
+4) m1(new  int  []  {100 , 200 , 150}) --->  
+
+
+Valid  and  array  of  three  elements  is  passed  to  the  method
+
+5) Therefore  replacing  []  with  ...  is  a  good  idea   becoz  method  is  strengthened
